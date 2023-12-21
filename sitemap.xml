@@ -15,6 +15,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/CLOUD/cloud/"/>
     </url>
     <url>
+        <loc>https://maxpixelton.github.io/byteswalk/CLOUD/CLOUD-TECH/cloud-tech/</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/CLOUD/CLOUD-TECH/cloud-tech/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/CLOUD/CLOUD-TECH/cloud-tech/"/>
+    </url>
+    <url>
         <loc>https://maxpixelton.github.io/byteswalk/CLOUD/HANDS-ON/001-HAVE-A-SERVER/have-a-server/</loc>
         <lastmod>2023-12-21</lastmod>
         <changefreq>daily</changefreq>
@@ -36,32 +43,11 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/CLOUD/HANDS-ON/003-DOMAIN-NAME/domain-name/"/>
     </url>
     <url>
-        <loc>https://maxpixelton.github.io/byteswalk/CODING/coding/</loc>
+        <loc>https://maxpixelton.github.io/byteswalk/CODING/C-C%2B%2B/basic/</loc>
         <lastmod>2023-12-21</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/CODING/coding/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/CODING/coding/"/>
-    </url>
-    <url>
-        <loc>https://maxpixelton.github.io/byteswalk/CODING/C-C%2B%2B/c-c%2B%2B/</loc>
-        <lastmod>2023-12-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/CODING/C-C%2B%2B/c-c%2B%2B/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/CODING/C-C%2B%2B/c-c%2B%2B/"/>
-    </url>
-    <url>
-        <loc>https://maxpixelton.github.io/byteswalk/CODING/C-C%2B%2B/C/c/</loc>
-        <lastmod>2023-12-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/CODING/C-C%2B%2B/C/c/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/CODING/C-C%2B%2B/C/c/"/>
-    </url>
-    <url>
-        <loc>https://maxpixelton.github.io/byteswalk/CODING/C-C%2B%2B/C%2B%2B/c%2B%2B/</loc>
-        <lastmod>2023-12-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/CODING/C-C%2B%2B/C%2B%2B/c%2B%2B/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/CODING/C-C%2B%2B/C%2B%2B/c%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/CODING/C-C%2B%2B/basic/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/CODING/C-C%2B%2B/basic/"/>
     </url>
     <url>
         <loc>https://maxpixelton.github.io/byteswalk/CODING/HTML-CSS-JS/html-css-js/</loc>
@@ -92,6 +78,20 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/CODING/HTML-CSS-JS/JS/js/"/>
     </url>
     <url>
+        <loc>https://maxpixelton.github.io/byteswalk/CODING/JAVA/basic/</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/CODING/JAVA/basic/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/CODING/JAVA/basic/"/>
+    </url>
+    <url>
+        <loc>https://maxpixelton.github.io/byteswalk/CODING/JAVA/collection/</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/CODING/JAVA/collection/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/CODING/JAVA/collection/"/>
+    </url>
+    <url>
         <loc>https://maxpixelton.github.io/byteswalk/CODING/PYTHON/python/</loc>
         <lastmod>2023-12-21</lastmod>
         <changefreq>daily</changefreq>
@@ -106,11 +106,11 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/CODING/PYTHON/ROADMAP/roadmap/"/>
     </url>
     <url>
-        <loc>https://maxpixelton.github.io/byteswalk/CONTROL/control/</loc>
+        <loc>https://maxpixelton.github.io/byteswalk/CODING/R/r/</loc>
         <lastmod>2023-12-21</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/CONTROL/control/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/CONTROL/control/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/CODING/R/r/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/CODING/R/r/"/>
     </url>
     <url>
         <loc>https://maxpixelton.github.io/byteswalk/CS/CS/</loc>
@@ -118,62 +118,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/CS/CS/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/CS/CS/"/>
-    </url>
-    <url>
-        <loc>https://maxpixelton.github.io/byteswalk/DEV/dev/</loc>
-        <lastmod>2023-12-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/DEV/dev/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/DEV/dev/"/>
-    </url>
-    <url>
-        <loc>https://maxpixelton.github.io/byteswalk/DEV/BACK-END/back-end/</loc>
-        <lastmod>2023-12-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/DEV/BACK-END/back-end/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/DEV/BACK-END/back-end/"/>
-    </url>
-    <url>
-        <loc>https://maxpixelton.github.io/byteswalk/DEV/DEVENV/devenv/</loc>
-        <lastmod>2023-12-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/DEV/DEVENV/devenv/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/DEV/DEVENV/devenv/"/>
-    </url>
-    <url>
-        <loc>https://maxpixelton.github.io/byteswalk/DEV/DEVENV/CLOUD-SYNC/cloud-sync/</loc>
-        <lastmod>2023-12-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/DEV/DEVENV/CLOUD-SYNC/cloud-sync/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/DEV/DEVENV/CLOUD-SYNC/cloud-sync/"/>
-    </url>
-    <url>
-        <loc>https://maxpixelton.github.io/byteswalk/DEV/DEVENV/REMOTE-CONTROL/remote-control/</loc>
-        <lastmod>2023-12-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/DEV/DEVENV/REMOTE-CONTROL/remote-control/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/DEV/DEVENV/REMOTE-CONTROL/remote-control/"/>
-    </url>
-    <url>
-        <loc>https://maxpixelton.github.io/byteswalk/DEV/FRONT-END/front-end/</loc>
-        <lastmod>2023-12-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/DEV/FRONT-END/front-end/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/DEV/FRONT-END/front-end/"/>
-    </url>
-    <url>
-        <loc>https://maxpixelton.github.io/byteswalk/DEV/VISUALIZATION/2D/2d-visualization/</loc>
-        <lastmod>2023-12-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/DEV/VISUALIZATION/2D/2d-visualization/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/DEV/VISUALIZATION/2D/2d-visualization/"/>
-    </url>
-    <url>
-        <loc>https://maxpixelton.github.io/byteswalk/DEV/VISUALIZATION/3D/3d-visualization/</loc>
-        <lastmod>2023-12-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/DEV/VISUALIZATION/3D/3d-visualization/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/DEV/VISUALIZATION/3D/3d-visualization/"/>
     </url>
     <url>
         <loc>https://maxpixelton.github.io/byteswalk/HOME/about/</loc>
@@ -190,11 +134,11 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/HOME/sponsorship/"/>
     </url>
     <url>
-        <loc>https://maxpixelton.github.io/byteswalk/MATH/math/</loc>
+        <loc>https://maxpixelton.github.io/byteswalk/MATH/resource/</loc>
         <lastmod>2023-12-21</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/MATH/math/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/MATH/math/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/MATH/resource/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/MATH/resource/"/>
     </url>
     <url>
         <loc>https://maxpixelton.github.io/byteswalk/PROJECT/project/</loc>
@@ -250,6 +194,7 @@
         <lastmod>2023-12-21</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/CLOUD/CLOUD-TECH/cloud-tech/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/CLOUD/CLOUD-TECH/cloud-tech/"/>
     </url>
     <url>
         <loc>https://maxpixelton.github.io/byteswalk/en/CLOUD/HANDS-ON/001-HAVE-A-SERVER/have-a-server/</loc>
@@ -273,32 +218,11 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/CLOUD/HANDS-ON/003-DOMAIN-NAME/domain-name/"/>
     </url>
     <url>
-        <loc>https://maxpixelton.github.io/byteswalk/en/CODING/coding/</loc>
+        <loc>https://maxpixelton.github.io/byteswalk/en/CODING/C-C%2B%2B/basic/</loc>
         <lastmod>2023-12-21</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/CODING/coding/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/CODING/coding/"/>
-    </url>
-    <url>
-        <loc>https://maxpixelton.github.io/byteswalk/en/CODING/C-C%2B%2B/c-c%2B%2B/</loc>
-        <lastmod>2023-12-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/CODING/C-C%2B%2B/c-c%2B%2B/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/CODING/C-C%2B%2B/c-c%2B%2B/"/>
-    </url>
-    <url>
-        <loc>https://maxpixelton.github.io/byteswalk/en/CODING/C-C%2B%2B/C/c/</loc>
-        <lastmod>2023-12-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/CODING/C-C%2B%2B/C/c/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/CODING/C-C%2B%2B/C/c/"/>
-    </url>
-    <url>
-        <loc>https://maxpixelton.github.io/byteswalk/en/CODING/C-C%2B%2B/C%2B%2B/c%2B%2B/</loc>
-        <lastmod>2023-12-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/CODING/C-C%2B%2B/C%2B%2B/c%2B%2B/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/CODING/C-C%2B%2B/C%2B%2B/c%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/CODING/C-C%2B%2B/basic/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/CODING/C-C%2B%2B/basic/"/>
     </url>
     <url>
         <loc>https://maxpixelton.github.io/byteswalk/en/CODING/HTML-CSS-JS/html-css-js/</loc>
@@ -329,6 +253,20 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/CODING/HTML-CSS-JS/JS/js/"/>
     </url>
     <url>
+        <loc>https://maxpixelton.github.io/byteswalk/en/CODING/JAVA/basic/</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/CODING/JAVA/basic/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/CODING/JAVA/basic/"/>
+    </url>
+    <url>
+        <loc>https://maxpixelton.github.io/byteswalk/en/CODING/JAVA/collection/</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/CODING/JAVA/collection/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/CODING/JAVA/collection/"/>
+    </url>
+    <url>
         <loc>https://maxpixelton.github.io/byteswalk/en/CODING/PYTHON/python/</loc>
         <lastmod>2023-12-21</lastmod>
         <changefreq>daily</changefreq>
@@ -343,11 +281,11 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/CODING/PYTHON/ROADMAP/roadmap/"/>
     </url>
     <url>
-        <loc>https://maxpixelton.github.io/byteswalk/en/CONTROL/control/</loc>
+        <loc>https://maxpixelton.github.io/byteswalk/en/CODING/R/r/</loc>
         <lastmod>2023-12-21</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/CONTROL/control/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/CONTROL/control/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/CODING/R/r/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/CODING/R/r/"/>
     </url>
     <url>
         <loc>https://maxpixelton.github.io/byteswalk/en/CS/CS/</loc>
@@ -355,62 +293,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/CS/CS/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/CS/CS/"/>
-    </url>
-    <url>
-        <loc>https://maxpixelton.github.io/byteswalk/en/DEV/dev/</loc>
-        <lastmod>2023-12-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/DEV/dev/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/DEV/dev/"/>
-    </url>
-    <url>
-        <loc>https://maxpixelton.github.io/byteswalk/en/DEV/BACK-END/back-end/</loc>
-        <lastmod>2023-12-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/DEV/BACK-END/back-end/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/DEV/BACK-END/back-end/"/>
-    </url>
-    <url>
-        <loc>https://maxpixelton.github.io/byteswalk/en/DEV/DEVENV/devenv/</loc>
-        <lastmod>2023-12-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/DEV/DEVENV/devenv/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/DEV/DEVENV/devenv/"/>
-    </url>
-    <url>
-        <loc>https://maxpixelton.github.io/byteswalk/en/DEV/DEVENV/CLOUD-SYNC/cloud-sync/</loc>
-        <lastmod>2023-12-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/DEV/DEVENV/CLOUD-SYNC/cloud-sync/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/DEV/DEVENV/CLOUD-SYNC/cloud-sync/"/>
-    </url>
-    <url>
-        <loc>https://maxpixelton.github.io/byteswalk/en/DEV/DEVENV/REMOTE-CONTROL/remote-control/</loc>
-        <lastmod>2023-12-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/DEV/DEVENV/REMOTE-CONTROL/remote-control/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/DEV/DEVENV/REMOTE-CONTROL/remote-control/"/>
-    </url>
-    <url>
-        <loc>https://maxpixelton.github.io/byteswalk/en/DEV/FRONT-END/front-end/</loc>
-        <lastmod>2023-12-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/DEV/FRONT-END/front-end/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/DEV/FRONT-END/front-end/"/>
-    </url>
-    <url>
-        <loc>https://maxpixelton.github.io/byteswalk/en/DEV/VISUALIZATION/2D/2d-visualization/</loc>
-        <lastmod>2023-12-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/DEV/VISUALIZATION/2D/2d-visualization/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/DEV/VISUALIZATION/2D/2d-visualization/"/>
-    </url>
-    <url>
-        <loc>https://maxpixelton.github.io/byteswalk/en/DEV/VISUALIZATION/3D/3d-visualization/</loc>
-        <lastmod>2023-12-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/DEV/VISUALIZATION/3D/3d-visualization/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/DEV/VISUALIZATION/3D/3d-visualization/"/>
     </url>
     <url>
         <loc>https://maxpixelton.github.io/byteswalk/en/HOME/about/</loc>
@@ -427,11 +309,17 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/HOME/sponsorship/"/>
     </url>
     <url>
-        <loc>https://maxpixelton.github.io/byteswalk/en/MATH/math/</loc>
+        <loc>https://maxpixelton.github.io/byteswalk/en/MATH/resouce/</loc>
         <lastmod>2023-12-21</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/MATH/math/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/MATH/math/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/MATH/resouce/"/>
+    </url>
+    <url>
+        <loc>https://maxpixelton.github.io/byteswalk/en/MATH/resource/</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://maxpixelton.github.io/byteswalk/en/MATH/resource/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://maxpixelton.github.io/byteswalk/MATH/resource/"/>
     </url>
     <url>
         <loc>https://maxpixelton.github.io/byteswalk/en/PROJECT/project/</loc>
