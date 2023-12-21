@@ -170,7 +170,7 @@ site_description: >- # 项目描述
 
 # 代码仓库信息
 repo_name: Shuaiwen-Cui/Infinity # 仓库名称
-repo_url: https://github.com/Shuaiwen-Cui/Infinity.git/ # 仓库地址
+repo_url: git@github.com:Shichuan-Hao/byteswalk.git/ # 仓库地址
 
 # 版权信息
 copyright: Copyright &copy; 2023 ~ now | 🚀 Shuaiwen Cui (Shaun)

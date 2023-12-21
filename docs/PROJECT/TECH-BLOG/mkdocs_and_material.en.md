@@ -149,7 +149,7 @@ site_description: >- # site description
 
 # Repository - if you want to share your website repo, you can add this part
 repo_name: Shuaiwen-Cui/Infinity # repo name
-repo_url: https://github.com/Shuaiwen-Cui/Infinity.git/ # repo url
+repo_url: git@github.com:Shichuan-Hao/byteswalk.git/ # repo url
 
 # Copyright - there will be a section in the left bottom showing the info below
 copyright: Copyright &copy; 2023 ~ now | 🚀 Shuaiwen Cui (Shaun)

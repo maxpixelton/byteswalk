@@ -48,7 +48,7 @@ If you use Windows, you can use the following command to upload the website to t
 First, if this is the first time for deployment, you need to clone the repo to the server, use the following command
 
 ```bash
-git clone https://github.com/Shuaiwen-Cui/Infinity.git
+git clone git@github.com:Shichuan-Hao/byteswalk.git
 ```
 change directory to the root directory of the website
 

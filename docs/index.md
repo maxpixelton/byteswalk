@@ -29,7 +29,7 @@ comments: false
 
     我的个人网站
 
-    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="http://www.byteswalk.com" target="_blank"> 传送门 </a>](#)
 
 <!-- -   :fontawesome-brands-linkedin:{ .lg .middle } __领英主页__
 
@@ -45,7 +45,7 @@ comments: false
 
     Github主页
 
-    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://github.com/Shichuan-Hao" target="_blank"> 传送门 </a>](#)
 
 <!-- -   :fontawesome-brands-researchgate:{ .lg .middle } __Researchgate__
 
