@@ -1,8 +1,8 @@
 <!-- ---
-comments: flase
+comments: false
 --- -->
 
-# 🔭 Stay Hungry, Stay Foolish
+# 🔭 吾生也有涯，而知也无涯
 ![GitHub repo size](https://img.shields.io/github/repo-size/Shuaiwen-Cui/Infinity)
 ![GitHub stars](https://img.shields.io/github/stars/Shuaiwen-Cui/Infinity?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/Shuaiwen-Cui/Infinity?style=social)
@@ -13,122 +13,123 @@ comments: flase
 !!! quote
     I have places to go, things to do, and people to impress.
 
-## 🎙️ Foreword
-Welcome to my personal tech blog! This website serves as a roadmap for my personal study, research and development. Explore this site by clicking the navigation bar on the top or the left.
+## 🎙️ 扉语
 
-## 🔗 Useful Links
+欢迎来到我的个人技术博客！ 本网站作为我个人学习、研究和开发的规划图。 请点击顶部或左侧的导航栏开始探索本站。
+
+## 🔗 链接
 
 <!-- to search icons, go to https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/ -->
 
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-house:{ .lg .middle } __Personal Website__
+-   :fontawesome-solid-house:{ .lg .middle } __个人网站__
 
     ---
 
-    Shuaiwen Cui's personal website
+    我的个人网站
 
-    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com" target="_blank"> 传送门 </a>](#)
 
--   :fontawesome-brands-linkedin:{ .lg .middle } __Linkedin Profile__
+<!-- -   :fontawesome-brands-linkedin:{ .lg .middle } __领英主页__
 
     ---
 
-    Shuaiwen Cui's LinkedIn profile
+    领英资料页
 
-    [:octicons-arrow-right-24: <a href="https://www.linkedin.com/in/shaun-shuaiwen-cui/" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.linkedin.com/in/shaun-shuaiwen-cui/" target="_blank"> 传送门 </a>](#) -->
 
 -   :fontawesome-brands-github:{ .lg .middle } __Github__
 
     ---
 
-    Shuaiwen Cui's GitHub profile, hope you can star this repo if you like it
+    Github主页
 
-    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui" target="_blank"> 传送门 </a>](#)
 
--   :fontawesome-brands-researchgate:{ .lg .middle } __Researchgate__
-
-    ---
-
-    Shuaiwen Cui's ResearchGate profile
-
-    [:octicons-arrow-right-24: <a href="https://www.researchgate.net/profile/Shuaiwen-Cui" target="_blank"> Portal </a>](#)
-
--   :fontawesome-brands-youtube:{ .lg .middle } __Youtube__
+<!-- -   :fontawesome-brands-researchgate:{ .lg .middle } __Researchgate__
 
     ---
 
-    Shuaiwen Cui's Youtube channel
+    Researchgate主页
 
-    [:octicons-arrow-right-24: <a href="https://www.youtube.com/channel/UCGNpQ1avIeJVN2tQ2U0zHog" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.researchgate.net/profile/Shuaiwen-Cui" target="_blank"> 传送门 </a>](#) -->
 
--   :fontawesome-brands-bilibili:{ .lg .middle } __BiliBili__
+<!-- -   :fontawesome-brands-youtube:{ .lg .middle } __Youtube__
 
     ---
 
-    Shuaiwen Cui's Bilibili Channel
+    Youtube频道
 
-    [:octicons-arrow-right-24: <a href="https://space.bilibili.com/422612631" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.youtube.com/channel/UCGNpQ1avIeJVN2tQ2U0zHog" target="_blank"> 传送门 </a>](#) -->
+
+<!-- -   :fontawesome-brands-bilibili:{ .lg .middle } __BiliBili__
+
+    ---
+
+    Bilibili频道
+
+    [:octicons-arrow-right-24: <a href="https://space.bilibili.com/422612631" target="_blank"> 传送门 </a>](#) -->
 
 -   :simple-roadmapdotsh:{ .lg .middle } __Roadmap__
 
     ---
 
-    Roadmap for everything to become a developer
+    开发者路线图
 
-    [:octicons-arrow-right-24: <a href="https://roadmap.sh/" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://roadmap.sh/" target="_blank"> 传送门 </a>](#)
 
 </div>
 
-
-## 🌐 Online Study Platforms
+## 🌐 在线学习平台
 
 <div class="grid cards" markdown>
 -  :simple-coursera:{ .lg .middle } __Coursera 🏆__
 
     ---
 
-    Coursera is a very good online study platform. It provides a lot of courses for free. You can also pay for the certificate.
+    Coursera 是一个非常好的在线学习平台。它提供了很多免费的课程。你也可以付费获得证书。
 
-    [:octicons-arrow-right-24: <a href="https://www.coursera.org/" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.coursera.org/" target="_blank"> 传送门 </a>](#)
+
 
 - :simple-edx:{ .lg .middle } __edX__
 
     ---
 
-    edX is another very good online study platform. It provides a lot of courses for free. You can also pay for the certificate.
+    edX 是另一个非常好的在线学习平台。它提供了很多免费的课程。你也可以付费获得证书。
 
-    [:octicons-arrow-right-24: <a href="https://www.edx.org/" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.edx.org/" target="_blank"> 传送门 </a>](#)
+
 
 - :simple-udemy:{ .lg .middle } __Udemy__
 
     ---
 
-    Udemy is another very good online study platform. It provides a lot of courses for free. You can also pay for the certificate.
+    Udemy 是另一个非常好的在线学习平台。它提供了很多免费的课程。你也可以付费获得证书。
 
-    [:octicons-arrow-right-24: <a href="https://www.udemy.com/" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.udemy.com/" target="_blank"> 传送门 </a>](#)
 
 </div>
 
+<!-- ## 🏆 热帖 -->
 
-## 🏆 Featured Posts
+<!-- <div class="grid cards" markdown>
 
-<div class="grid cards" markdown>
-
--   :fontawesome-solid-server:{ .lg .middle } __Have A Server__
+-   :fontawesome-solid-server:{ .lg .middle } __拥有一台云服务器__
 
     ---
 
-    How to get a cloud server.
+    如何拥有一台云服务器。
 
-    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:8000/CLOUD/HANDS-ON/001-HAVE-A-SERVER/have-a-server/" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:8000/CLOUD/HANDS-ON/001-HAVE-A-SERVER/have-a-server/" target="_blank"> 传送门 </a>](#)
 
--   :material-post:{ .lg .middle } __Tech Blog__
+-   :material-post:{ .lg .middle } __技术博客__
 
     ---
+ 
+    如何使用 mkdocs 和 material 主题搭建技术博客。
 
-    How to have a cool tech blog using MkDocs and Material for MkDocs.
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:8000/PROJECT/TECH-BLOG/mkdocs_and_material/" target="_blank"> 传送门 </a>](#)
 
-    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:8000/PROJECT/TECH-BLOG/mkdocs_and_material/" target="_blank"> Portal </a>](#)
-
-</div>
+</div> -->

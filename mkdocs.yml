@@ -1,26 +1,26 @@
-# Copyright (c) 2023 - now Shuaiwen Cui
+# Copyright (c) 2023 - now Shichuan Hao
 # Built upon MkDocs & Material for MkDocs
 
 # Project information
-site_name: Eureka!
-site_url: https://localhost:8000/ # build and run on server, to visit it, type in the server's IP address and port number like this: xxx.xxx.xxx.xxx:8000
-site_author: Shuaiwen Cui
+site_name: Byteswalk!
+site_url: https://maxpixelton.github.io/byteswalk/ # build and run on server, to visit it, type in the server's IP address and port number like this: xxx.xxx.xxx.xxx:8000
+site_author: Shichuan Hao
 site_description: >-
-  Welcome to Shaun's rabbit hole. This site serves as a personal knowledge base for me to record my thoughts and ideas. It is also a place for me to share my knowledge and experience with the world. I hope you find something useful here.
+  Welcome to Shaun's rabbit hole. This site serves as a personal knowledge base for me to record my thoughts and ideas. It is also a place for me to share my knowledge and experience with the world. I hope you find something useful here.(欢迎来到肖恩的兔子洞。这个网站是我的个人知识库，用来记录我的想法和创意。它也是我与世界分享我的知识和经验的地方。希望你能在这里找到有用的东西。)
 
 # Repository
-repo_name: Shuaiwen-Cui/Infinity
-repo_url: https://github.com/Shuaiwen-Cui/Infinity.git/
+repo_name: Shichuan-Hao/byteswalk
+repo_url: https://github.com/Shichuan-Hao/byteswalk.git
 
 # Copyright
-copyright: Copyright &copy; 2023 ~ now | 🚀 Shuaiwen Cui (Shaun)
+copyright: Copyright &copy; 2023 ~ now | 🚀 Shichuan Hao (Shaun)
 
 # Configuration
 theme:
   custom_dir: material/overrides
   name: material
   logo: static/images/logo.png
-  language: en
+  language: zh
   features:
     - announce.dismiss
     - content.action.edit
@@ -107,66 +107,38 @@ plugins:
       reconfigure_material: true
       reconfigure_search: true
       languages:
-        - locale: en
-          default: true
-          name: English
-          build: true
-          # site_name: Infinity
         - locale: zh
+          default: true
           name: 简体中文
           build: true
-          nav_translations: # note that all titles and subtitles in the navigation bar that need to be translated can be put here, but with no indentation
-            HOME: 首页
-            ABOUT: 关于
-            SPONSORSHIP: 赞助
-            MATH: 数学
-            CS: 计算机
-            CODING: 编程
-            C/C++: C/C++
-            PYTHON: Python
-            ROADMAP: 路线图
-            HTML/CSS/JS: HTML/CSS/JS
-            HTML: 超文本标记语言
-            CSS: 级联样式表
-            JAVASCRIPT: JAVASCRIPT
-            EMBEDDED-SYS: 嵌入式系统
-            DSP: 数字信号处理
-            PERCEPTION: 感知
-            CONTROL: 控制
-            ACTUATION: 执行
-            VISUALIZATION: 可视化            
-            IOT: 物联网
-            MQTT: 消息队列遥测传输协议
-            BROKER: 代理
-            CLIENT: 客户端
-            CLOUD: 云
-            CLOUD-TECH: 云技术
-            HANDS-ON: 上手实践
-            Have A Server: 拥有一台服务器
-            Server Configuration: 服务器配置
-            Get A Domain Name: 获得一个域名
-            AI: 人工智能
-            BASICS: 基础
-            FRAMEWORKS: 框架
-            MLP: 多层感知机
-            CNN: 卷积神经网络
-            RNN: 循环神经网络
-            TRANSFORMER: “变形金刚”
-            GAN: 生成对抗网络
-            RL: 强化学习
-            FL: 联邦学习
-            NOTE-D2L: 动手学深度学习
-            CH1-INTRO: CH1-引言
-            SHM: 结构健康监测
-            DEV: 开发
-            DEVENV: 开发环境
-            REMOTE-CONTROL: 远程控制
-            CLOUD-SYNC: 云同步
-            FRONT-END: 前端
-            BACK-END: 后端
-            RESEARCH: 研究
-            PROJECT: 项目
-            TECH-BLOG: 技术博客
+          # site_name: Infinity
+        - locale: en
+          name: English
+          build: true
+          # 注意，导航栏中所有需要翻译的标题和字幕都可以放在这里，但不要缩进(note that all titles and subtitles in the navigation bar that need to be translated can be put here, but with no indentation)
+          nav_translations:
+            首页: HOME
+            关于: ABOUT
+            赞助: SPONSORSHIP
+            数学: MATH
+            计算机: CS
+            编程: CODING 
+            路线图: ROADMAP
+            云: CLOUD
+            云技术: CLOUD-TECH
+            上手实践: HANDS-ON
+            拥有一台服务器: Have A Server
+            服务器配置: Server Configuration
+            获得一个域名: Get A Domain Name
+            可视化: VISUALIZATION
+            开发: DEV
+            开发环境: DEVENV
+            远程控制: REMOTE-CONTROL
+            云同步: CLOUD-SYNC
+            前端: FRONT-END
+            后端: BACK-END
+            项目: PROJECT
+            技术博客: TECH-BLOG
 # # Hooks
 # hooks:
 #   - material/overrides/hooks/shortcodes.py
@@ -203,18 +175,18 @@ extra:
   #     link: /zh/
   #     lang: zh
   social:
-    - icon: fontawesome/solid/house
-      link: http://www.cuishuaiwen.com/
+    # - icon: fontawesome/solid/house
+    #   link: http://www.cuishuaiwen.com/
     - icon: fontawesome/brands/github
-      link: https://github.com/Shuaiwen-Cui
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/shaun-shuaiwen-cui/
-    - icon: fontawesome/brands/researchgate
-      link: https://www.researchgate.net/profile/Shuaiwen-Cui
-    - icon: fontawesome/brands/orcid
-      link: https://orcid.org/0000-0003-4447-6687
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/ShuaiwenC
+      link: https://github.com/Shichuan-Hao
+    # - icon: fontawesome/brands/linkedin
+    #   link: https://www.linkedin.com/in/shaun-shuaiwen-cui/
+    # - icon: fontawesome/brands/researchgate
+    #   link: https://www.researchgate.net/profile/Shuaiwen-Cui
+    # - icon: fontawesome/brands/orcid
+    #   link: https://orcid.org/0000-0003-4447-6687
+    # - icon: fontawesome/brands/twitter
+    #   link: https://twitter.com/ShuaiwenC
   tags:
     Default: default-tag
     Hardware: hardware-tag
@@ -227,10 +199,10 @@ extra:
   #     find what they're searching for. With your consent, you're helping us to
   #     make our documentation better.
 
-# Extra Configuration 
+# Extra Configuration（额外配置）
 extra_javascript:
   # - https://giscus.app/client.js
-  - /CODING/PYTHON/Book1_Python-For-Beginners_编程不难.pdf
+  - /docs/CODING/PYTHON/Book1_Python-For-Beginners_编程不难.pdf
 
 # Extensions
 markdown_extensions:
@@ -282,81 +254,47 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-# Page Navigation Tree
+# Page Navigation Tree（页面导航树）
 nav:
-  - HOME: 
+  - 首页: 
       - "index.md"
-      - ABOUT: "./HOME/about.md"
-      - SPONSORSHIP: "./HOME/sponsorship.md"
-  - MATH:
+      - 关于: "./HOME/about.md"
+      - 赞助: "./HOME/sponsorship.md"
+  - 数学:
       - "./MATH/math.md"
   - CS: 
       - "./CS/CS.md"
-  - CODING: 
+  - 编程: 
       # - "./CODING/coding.md"
       - C/C++:
           # - "./C-C++/c-c++.md"
           - C: "./CODING/C-C++/C/c.md"
           - C++: "./CODING/C-C++/C++/c++.md"
-      - PYTHON: 
+      - Python: 
           - "./CODING/PYTHON/python.md"
           - ROADMAP: "./CODING/PYTHON/ROADMAP/roadmap.md"
       - HTML/CSS/JS: 
           - HTML: "./CODING/HTML-CSS-JS/HTML/html.md"
           - CSS: "./CODING/HTML-CSS-JS/CSS/css.md"
           - JAVASCRIPT: "./CODING/HTML-CSS-JS/JS/js.md"
-  - EMBEDDED-SYS: 
-      - "./EMBEDDED-SYS/embedded-sys.md"
-  - DSP: 
-      - "./DSP/dsp.md"
-  - PERCEPTION: 
-      - "./PERCEPTION/perception.md"
-  - CONTROL: 
-      - "./CONTROL/control.md"
-  - ACTUATION: 
-      - "./ACTUATION/actuation.md"
-      - ROS: "./ACTUATION/ROS/ros.md"
-  - IOT: 
-      - "./IOT/iot.md"
-      - MQTT: 
-          - "./IOT/MQTT/mqtt.md"
-          - BROKER: "./IOT/MQTT/BROKER/broker.md"
-          - CLIENT: "./IOT/MQTT/CLIENT/client.md"
-  - CLOUD: 
+  - 云: 
       - "./CLOUD/cloud.md"
-      - CLOUD-TECH: "./CLOUD/CLOUD-TECH/cloud-tech.md"
-      - HANDS-ON:
-          - Have A Server: "./CLOUD/HANDS-ON/001-HAVE-A-SERVER/have-a-server.md"
-          - Server Configuration: "./CLOUD/HANDS-ON/002-SERVER-CONFIG/server-config.md"
-          - Get A Domain Name: "./CLOUD/HANDS-ON/003-DOMAIN-NAME/domain-name.md"
-  - AI: 
-      # - "./AI/ai.md"
-      - BASICS: "./AI/BASICS/basics.md"
-      - FRAMEWORKS: "./AI/FRAMEWORKS/frameworks.md"
-      - MLP: "./AI/MLP/mlp.md"
-      - CNN: "./AI/CNN/cnn.md"
-      - RNN: "./AI/RNN/rnn.md"
-      - TRANSFORMER: "./AI/TRANSFORMER/transformer.md"
-      - GAN: "./AI/GAN/gan.md"
-      - RL: "./AI/RL/rl.md"
-      - FL: "./AI/FL/fl.md"
-      - NOTE-D2L: 
-          - CH1-INTRO: "./AI/NOTE-D2L/CH1-INTRO/ch1-intro.md"
-  - SHM: 
-      - "./SHM/shm.md"
-  - DEV: 
+      - 云技术: "./CLOUD/CLOUD-TECH/cloud-tech.md"
+      - 上手实战:
+          - 拥有一台服务器: "./CLOUD/HANDS-ON/001-HAVE-A-SERVER/have-a-server.md"
+          - 服务器配置: "./CLOUD/HANDS-ON/002-SERVER-CONFIG/server-config.md"
+          - 获得一个域名: "./CLOUD/HANDS-ON/003-DOMAIN-NAME/domain-name.md"
+  - 开发: 
       - "./DEV/dev.md"
-      - DEVENV: 
+      - 开发环境: 
           # - "./DEV/DEVENV/devenv.md"
-          - REMOTE-CONTROL: "./DEV/DEVENV/REMOTE-CONTROL/remote-control.md"
-          - CLOUD-SYNC: "./DEV/DEVENV/CLOUD-SYNC/cloud-sync.md"
-      - FRONT-END: "./DEV/FRONT-END/front-end.md"
-      - BACK-END: "./DEV/BACK-END/back-end.md"
-      - VISUALIZATION:
-          - 2D: "./DEV/VISUALIZATION/2D/2d-visualization.en.md"
-          - 3D: "./DEV/VISUALIZATION/3D/3d-visualization.en.md"
-  - RESEARCH: 
-      - "./RESEARCH/research.md"
-  - PROJECT: 
+          - 远程控制: "./DEV/DEVENV/REMOTE-CONTROL/remote-control.md"
+          - 云同步: "./DEV/DEVENV/CLOUD-SYNC/cloud-sync.md"
+      - 前端: "./DEV/FRONT-END/front-end.md"
+      - 后端: "./DEV/BACK-END/back-end.md"
+      - 可视化:
+          - 2D: "./DEV/VISUALIZATION/2D/2d-visualization.md"
+          - 3D: "./DEV/VISUALIZATION/3D/3d-visualization.md"
+  - 项目: 
       - "./PROJECT/project.md"
-      - TECH-BLOG: "./PROJECT/TECH-BLOG/mkdocs_and_material.md"
+      - 技术博客: "./PROJECT/TECH-BLOG/mkdocs_and_material.md"

@@ -1,1 +1,0 @@
-# Robotic Operating System (ROS)
