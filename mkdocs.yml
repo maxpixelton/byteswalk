@@ -274,10 +274,10 @@ nav:
     - ROADMAP: "./CODING/PYTHON/ROADMAP/roadmap.md"
   - R:
     - "./CODING/R/r.md"
-  - HTML/CSS/JS: 
-    - HTML: "./CODING/HTML-CSS-JS/HTML/html.md"
-    - CSS: "./CODING/HTML-CSS-JS/CSS/css.md"
-    - JAVASCRIPT: "./CODING/HTML-CSS-JS/JS/js.md"
+  - Web: 
+    - HTML: "./CODING/WEB/HTML/html.md"
+    - CSS: "./CODING/WEB/CSS/css.md"
+    - JAVASCRIPT: "./CODING/WEB/JS/js.md"
   - 云: 
       - "./CLOUD/cloud.md"
       - 云技术: "./CLOUD/CLOUD-TECH/cloud-tech.md"
