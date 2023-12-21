@@ -261,22 +261,23 @@ nav:
       - 关于: "./HOME/about.md"
       - 赞助: "./HOME/sponsorship.md"
   - 数学:
-      - "./MATH/math.md"
+      - "./MATH/resource.md"
   - CS: 
       - "./CS/CS.md"
-  - 编程: 
-      # - "./CODING/coding.md"
-      - C/C++:
-          # - "./C-C++/c-c++.md"
-          - C: "./CODING/C-C++/C/c.md"
-          - C++: "./CODING/C-C++/C++/c++.md"
-      - Python: 
-          - "./CODING/PYTHON/python.md"
-          - ROADMAP: "./CODING/PYTHON/ROADMAP/roadmap.md"
-      - HTML/CSS/JS: 
-          - HTML: "./CODING/HTML-CSS-JS/HTML/html.md"
-          - CSS: "./CODING/HTML-CSS-JS/CSS/css.md"
-          - JAVASCRIPT: "./CODING/HTML-CSS-JS/JS/js.md"
+  - C/C++:
+      - "./CODING/C-C++/basic.md"
+  - Java:
+    - "./CODING/JAVA/basic.md"
+    - "./CODING/JAVA/collection.md"
+  - Python: 
+    - "./CODING/PYTHON/python.md"
+    - ROADMAP: "./CODING/PYTHON/ROADMAP/roadmap.md"
+  - R:
+    - "./CODING/R/r.md"
+  - HTML/CSS/JS: 
+    - HTML: "./CODING/HTML-CSS-JS/HTML/html.md"
+    - CSS: "./CODING/HTML-CSS-JS/CSS/css.md"
+    - JAVASCRIPT: "./CODING/HTML-CSS-JS/JS/js.md"
   - 云: 
       - "./CLOUD/cloud.md"
       - 云技术: "./CLOUD/CLOUD-TECH/cloud-tech.md"
@@ -284,17 +285,6 @@ nav:
           - 拥有一台服务器: "./CLOUD/HANDS-ON/001-HAVE-A-SERVER/have-a-server.md"
           - 服务器配置: "./CLOUD/HANDS-ON/002-SERVER-CONFIG/server-config.md"
           - 获得一个域名: "./CLOUD/HANDS-ON/003-DOMAIN-NAME/domain-name.md"
-  - 开发: 
-      - "./DEV/dev.md"
-      - 开发环境: 
-          # - "./DEV/DEVENV/devenv.md"
-          - 远程控制: "./DEV/DEVENV/REMOTE-CONTROL/remote-control.md"
-          - 云同步: "./DEV/DEVENV/CLOUD-SYNC/cloud-sync.md"
-      - 前端: "./DEV/FRONT-END/front-end.md"
-      - 后端: "./DEV/BACK-END/back-end.md"
-      - 可视化:
-          - 2D: "./DEV/VISUALIZATION/2D/2d-visualization.md"
-          - 3D: "./DEV/VISUALIZATION/3D/3d-visualization.md"
   - 项目: 
       - "./PROJECT/project.md"
       - 技术博客: "./PROJECT/TECH-BLOG/mkdocs_and_material.md"

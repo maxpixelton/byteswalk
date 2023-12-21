@@ -3,7 +3,7 @@
 !!! tip
     学习 Python 有很多选择，但最好坚持一个。认准一个努力学，总会有收获，而不应该在因为选择太多而无所适从中浪费时间。
 
-<div class="grid cards" markdown>
+<!-- <div class="grid cards" markdown>
 
 -   :fontawesome-solid-book:{ .lg .middle } __Python For Beginners__
 
@@ -13,4 +13,4 @@
 
     [:octicons-arrow-right-24: <a href="https://github.com/Visualize-ML/Book1_Python-For-Beginners" target="_blank"> Portal </a>](#)
 
-</div>
+</div> -->

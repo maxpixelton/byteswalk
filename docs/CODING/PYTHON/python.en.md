@@ -3,7 +3,7 @@
 !!! tip
     So many choices there for Python learning, but it is better to stick with one. Bury yourself in it, and you will be rewarded.
 
-<div class="grid cards" markdown>
+<!-- <div class="grid cards" markdown>
 
 -   :fontawesome-solid-book:{ .lg .middle } __Python For Beginners__
 
@@ -16,8 +16,8 @@
 
     [:octicons-arrow-right-24: <a href="https://github.com/Visualize-ML/Book1_Python-For-Beginners" target="_blank"> Source Code </a>](#)
 
-</div>
+</div> -->
 
-<iframe src="/CODING/PYTHON/Book1_Python-For-Beginners_编程不难.pdf" width="100%" height="600px"></iframe>
+<!-- <iframe src="Book1_Python-For-Beginners_编程不难.pdf" width="100%" height="600px"></iframe> -->
 
 
