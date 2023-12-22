@@ -327,6 +327,13 @@
 :south_georgia_south_sandwich_islands: ~ `:south_georgia_south_sandwich_islands:`
 
 :south_sudan: ~ `:south_sudan:`
+:guyana: ~ `:guyana:`
+
+:haircut_man: ~ `:haircut_man:`
+
+:haircut_woman: ~ `:haircut_woman:`
+
+:haiti: ~ `:haiti:`
 -->
 
 :+1: ~ `:+1:`
@@ -1315,13 +1322,7 @@
 
 :gun: ~ `:gun:`
 
-:guyana: ~ `:guyana:`
 
-:haircut_man: ~ `:haircut_man:`
-
-:haircut_woman: ~ `:haircut_woman:`
-
-:haiti: ~ `:haiti:`
 
 :hamburger: ~ `:hamburger:`
 
