@@ -309,6 +309,24 @@
 :sun_behind_rain_cloud: ~ `:sun_behind_rain_cloud:`
 
 :sun_behind_small_cloud: ~ `:sun_behind_small_cloud:`
+:sri_lanka: ~ `:sri_lanka:`
+
+:st_barthelemy: ~ `:st_barthelemy:`
+
+:st_helena: ~ `:st_helena:`
+
+:st_kitts_nevis: ~ `:st_kitts_nevis:`
+
+:st_lucia: ~ `:st_lucia:`
+
+:st_pierre_miquelon: ~ `:st_pierre_miquelon:`
+
+:st_vincent_grenadines: ~ `:st_vincent_grenadines:`
+:south_africa: ~ `:south_africa:`
+
+:south_georgia_south_sandwich_islands: ~ `:south_georgia_south_sandwich_islands:`
+
+:south_sudan: ~ `:south_sudan:`
 -->
 
 :+1: ~ `:+1:`
@@ -2425,11 +2443,7 @@
 
 :sound: ~ `:sound:`
 
-:south_africa: ~ `:south_africa:`
 
-:south_georgia_south_sandwich_islands: ~ `:south_georgia_south_sandwich_islands:`
-
-:south_sudan: ~ `:south_sudan:`
 
 :space_invader: ~ `:space_invader:`
 
@@ -2467,19 +2481,7 @@
 
 :squid: ~ `:squid:`
 
-:sri_lanka: ~ `:sri_lanka:`
 
-:st_barthelemy: ~ `:st_barthelemy:`
-
-:st_helena: ~ `:st_helena:`
-
-:st_kitts_nevis: ~ `:st_kitts_nevis:`
-
-:st_lucia: ~ `:st_lucia:`
-
-:st_pierre_miquelon: ~ `:st_pierre_miquelon:`
-
-:st_vincent_grenadines: ~ `:st_vincent_grenadines:`
 
 :stadium: ~ `:stadium:`
 
