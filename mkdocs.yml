@@ -268,7 +268,9 @@ nav:
       - "./CS/preamble.md"
   # - 编程: 
   - C/C++:
-    - "./CODING/C-C++/c-c++.md"
+    - "./CODING/C-C++/summary.md"
+    - C++:
+      - "./CODING/C-C++/C++/poniter.md"
   - Java:
     - "./CODING/JAVA/basic.md"
     - "./CODING/JAVA/collection.md"
