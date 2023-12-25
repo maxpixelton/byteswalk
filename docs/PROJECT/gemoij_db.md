@@ -334,6 +334,45 @@
 :haircut_woman: ~ `:haircut_woman:`
 
 :haiti: ~ `:haiti:`
+:central_african_republic: ~ `:central_african_republic:`
+
+:chad: ~ `:chad:`
+:christmas_island: ~ `:christmas_island:`
+:clinking_glasses: ~ `:clinking_glasses:`
+:fiji: ~ `:fiji:`
+:hand: ~ `:hand:`
+:heavy_heart_exclamation: ~ `:heavy_heart_exclamation:`
+:hocho: ~ `:hocho:`
+:honduras: ~ `:honduras:`
+:hong_kong: ~ `:hong_kong:`
+
+:hugs: ~ `:hugs:`
+
+:hungary: ~ `:hungary:`
+
+:hurtrealbad: ~ `:hurtrealbad:`
+:iceland: ~ `:iceland:`
+:india: ~ `:india:`
+:jamaica: ~ `:jamaica:`
+:jersey: ~ `:jersey:`
+
+:jordan: ~ `:jordan:`
+:kazakhstan: ~ `:kazakhstan:`
+
+:kenya: ~ `:kenya:`
+:kosovo: ~ `:kosovo:`
+:kuwait: ~ `:kuwait:`
+
+:kyrgyzstan: ~ `:kyrgyzstan:`
+:latvia: ~ `:latvia:`
+:lebanon: ~ `:lebanon:`
+:lesotho: ~ `:lesotho:`
+:liberia: ~ `:liberia:`
+:libya: ~ `:libya:`
+
+:liechtenstein: ~ `:liechtenstein:`
+:mantelpiece_clock: ~ `:mantelpiece_clock:`
+:marshall_islands: ~ `:marshall_islands:`
 -->
 
 :+1: ~ `:+1:`
@@ -692,9 +731,7 @@
 
 :cd: ~ `:cd:`
 
-:central_african_republic: ~ `:central_african_republic:`
 
-:chad: ~ `:chad:`
 
 :chains: ~ `:chains:`
 
@@ -726,7 +763,7 @@
 
 :chocolate_bar: ~ `:chocolate_bar:`
 
-:christmas_island: ~ `:christmas_island:`
+
 
 :christmas_tree: ~ `:christmas_tree:`
 
@@ -752,7 +789,7 @@
 
 :classical_building: ~ `:classical_building:`
 
-:clinking_glasses: ~ `:clinking_glasses:`
+
 
 :clipboard: ~ `:clipboard:`
 
@@ -1160,7 +1197,7 @@
 
 :field_hockey: ~ `:field_hockey:`
 
-:fiji: ~ `:fiji:`
+
 
 :file_cabinet: ~ `:file_cabinet:`
 
@@ -1334,7 +1371,7 @@
 
 :hamster: ~ `:hamster:`
 
-:hand: ~ `:hand:`
+
 
 :handbag: ~ `:handbag:`
 
@@ -1372,7 +1409,7 @@
 
 :heavy_dollar_sign: ~ `:heavy_dollar_sign:`
 
-:heavy_heart_exclamation: ~ `:heavy_heart_exclamation:`
+
 
 :heavy_minus_sign: ~ `:heavy_minus_sign:`
 
@@ -1390,15 +1427,15 @@
 
 :high_heel: ~ `:high_heel:`
 
-:hocho: ~ `:hocho:`
+
 
 :hole: ~ `:hole:`
 
-:honduras: ~ `:honduras:`
+
 
 :honey_pot: ~ `:honey_pot:`
 
-:hong_kong: ~ `:hong_kong:`
+
 
 :horse: ~ `:horse:`
 
@@ -1424,11 +1461,6 @@
 
 :houses: ~ `:houses:`
 
-:hugs: ~ `:hugs:`
-
-:hungary: ~ `:hungary:`
-
-:hurtrealbad: ~ `:hurtrealbad:`
 
 :hushed: ~ `:hushed:`
 
@@ -1440,7 +1472,7 @@
 
 :icecream: ~ `:icecream:`
 
-:iceland: ~ `:iceland:`
+
 
 :id: ~ `:id:`
 
@@ -1452,7 +1484,7 @@
 
 :incoming_envelope: ~ `:incoming_envelope:`
 
-:india: ~ `:india:`
+
 
 :indonesia: ~ `:indonesia:`
 
@@ -1470,7 +1502,7 @@
 
 :jack_o_lantern: ~ `:jack_o_lantern:`
 
-:jamaica: ~ `:jamaica:`
+
 
 :japan: ~ `:japan:`
 
@@ -1482,9 +1514,7 @@
 
 :jeans: ~ `:jeans:`
 
-:jersey: ~ `:jersey:`
 
-:jordan: ~ `:jordan:`
 
 :joy: ~ `:joy:`
 
@@ -1496,9 +1526,7 @@
 
 :kaaba: ~ `:kaaba:`
 
-:kazakhstan: ~ `:kazakhstan:`
 
-:kenya: ~ `:kenya:`
 
 :key: ~ `:key:`
 
@@ -1530,13 +1558,11 @@
 
 :koko: ~ `:koko:`
 
-:kosovo: ~ `:kosovo:`
+
 
 :kr: ~ `:kr:`
 
-:kuwait: ~ `:kuwait:`
 
-:kyrgyzstan: ~ `:kyrgyzstan:`
 
 :label: ~ `:label:`
 
@@ -1552,13 +1578,12 @@
 
 :latin_cross: ~ `:latin_cross:`
 
-:latvia: ~ `:latvia:`
 
 :laughing: ~ `:laughing:`
 
 :leaves: ~ `:leaves:`
 
-:lebanon: ~ `:lebanon:`
+
 
 :ledger: ~ `:ledger:`
 
@@ -1574,17 +1599,15 @@
 
 :leopard: ~ `:leopard:`
 
-:lesotho: ~ `:lesotho:`
+
 
 :level_slider: ~ `:level_slider:`
 
-:liberia: ~ `:liberia:`
+
 
 :libra: ~ `:libra:`
 
-:libya: ~ `:libya:`
 
-:liechtenstein: ~ `:liechtenstein:`
 
 :light_rail: ~ `:light_rail:`
 
@@ -1698,11 +1721,11 @@
 
 :mans_shoe: ~ `:mans_shoe:`
 
-:mantelpiece_clock: ~ `:mantelpiece_clock:`
+
 
 :maple_leaf: ~ `:maple_leaf:`
 
-:marshall_islands: ~ `:marshall_islands:`
+
 
 :martial_arts_uniform: ~ `:martial_arts_uniform:`
 
