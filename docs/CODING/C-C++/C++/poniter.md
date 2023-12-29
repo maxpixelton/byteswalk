@@ -550,10 +550,101 @@ Address of names[3] = S
 
 通常情况下，一个指针包含一个变量的地址。当我们定义一个指向指针的指针时，第一个指针包含了第二个指针的地址，第二个指针指向包含实际值的位置。
 
-    
 
+![指向指针的指针](https://shichuan-hao.github.io/images/assert/CPLUSPLUS/pointer_to_pointer.jpg)
+
+一个指向指针的指针变量必须声明为在变量名前放置两个星号，比如，声明一个指向 int 类型指针的指针：
+```C++
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int var;
+    int *ptr;
+    int **pptr;
+
+    var = 3000;
+
+    // 获取 var 的地址
+    ptr = &var;
+
+    // 使用运算符 & 获取 ptr 的地址
+    pptr = &ptr;
+
+    // 使用 pptr 获取值
+    cout << "The value of var: " << var << endl;
+    cout << "The value of *ptr: " << *ptr << endl;
+    cout << "The value of **ptr: " << **pptr << endl;
+    // cout << "var 的值：" << var << endl;
+    // cout << "*ptr 的值：" << *ptr << endl;
+    // cout << "**ptr 的值：" << **pptr << endl;
+
+    return 0;
+}
+```
+当上面代码被编译和执行时，它会产生下列结果：
+```
+The value of var: 3000
+The value of *ptr: 3000
+The value of **ptr: 3000
+```
+!!! Bug
+
+    在上面代码中，使用下面输出时，输出的结果乱码！不知道啥原因！留待以后解决！！！
+    ```C++
+    cout << "var 的值：" << var << endl;
+    cout << "*ptr 的值：" << *ptr << endl;
+    cout << "**ptr 的值：" << **pptr << endl;
+    ```
 
 ## C++ 传递指针给函数
+
+C++ 允许我们将指针传递函数，只需要简单地声明函数参数为指针类型即可。
+
+下面代码中，我们传递一个无符号的 long 型指针给函数，并在函数内改变这个值。
+```C++
+#include <iostream>
+#include <ctime>
+
+using namespace std;
+
+// 在些函数时应该习惯性的先声明函数，然后再定义函数
+void getSeconds(unsigned long *par);
+
+void getSeconds(unsigned long *par)
+{
+    // 获取当前的秒数
+    *par = time( NULL );
+    return;
+}
+
+int main()
+{
+    unsigned long sec;
+
+    getSeconds( &sec );
+
+    // 输出实际值
+    cout << "Number of seconds: " << sec << endl;
+
+    return 0;
+}
+```
+编译和执行上面代码时，输出下面结果：
+```
+Number of seconds :1294450468
+```
+
+能接受指针作为参数的函数，也能接受数组作为参数，如下所示：
+```C++
+```
+当上面的代码被编译和执行时，它会产生下列结果：
+```
+```
+
+
 
 !!! tip
 
@@ -564,3 +655,83 @@ Address of names[3] = S
 !!! tip
 
     :boom: C++ 允许函数返回指针到局部变量、静态变量和动态内存分配。
+
+C++ 不仅可以从函数返回数组，类似地、C++ 也可以从函数返回指针。为了做到这点，我们必须声明一个返回指针的函数，如下所示：
+```C++
+int * myFunction()
+{
+    ....
+    // <...code...>
+}
+```
+!!! tip
+
+    :boom: C++ 不支持在函数外返回局部变量的地址，除非定义局部变量为 static 变量。
+
+现在，看下面代码，它会随机生成 10 个随机数，并使用表示指针的数组名（即第一个数组元素的地址）来返回它们，具体如下：
+```C++
+#include <iostream>
+#include <ctime>
+#include <cstdlib>
+
+using namespace std;
+
+// 要生成和返回随机数的函数
+int * getRadnom()
+{
+    static int r[10];
+
+    // 设置种子  ？？ 什么是种子 ？？
+    srand( (unsigned)time( NULL) );
+    for (int i = 0; i < 10; ++i)
+    {
+        r[i] = rand();
+        cout << r[i] << endl;
+    }
+
+    return r;
+}
+
+// 要调用上面定义函数的主函数
+int main()
+{
+    // 一个指向整数的指针
+    int *p;
+
+    p = getRadnom();
+
+    cout << "###################################" << endl;
+
+    for ( int i = 0; i < 10; i++)
+    {
+        /* code */
+        cout << "*(p + " << i << ") :";
+        cout << *(p + i) << endl;
+    }
+    return 0;
+}
+```
+编译和执行上面代码，会产生下列结果：
+```
+605
+25177
+31577
+12525
+19494
+19853
+31572
+6776
+18512
+20207
+###################################
+*(p + 0) :605
+*(p + 1) :25177
+*(p + 2) :31577
+*(p + 3) :12525
+*(p + 4) :19494
+*(p + 5) :19853
+*(p + 6) :31572
+*(p + 7) :6776
+*(p + 8) :18512
+*(p + 9) :20207
+```
