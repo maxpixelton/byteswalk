@@ -269,7 +269,10 @@ nav:
   - C/C++:
     - "./CODING/C-C++/summary.md"
     - C++:
+      - "./CODING/C-C++/C++/get-started.md"
+      - "./CODING/C-C++/C++/syntax.md"
       - "./CODING/C-C++/C++/poniter.md"
+      
   - Java:
     - "./CODING/JAVA/basic.md"
     - "./CODING/JAVA/collection.md"
