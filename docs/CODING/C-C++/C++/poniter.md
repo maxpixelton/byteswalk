@@ -90,7 +90,7 @@ int main() {
 	cout << "Address stored in ip variable: ";
 	cout << ip << endl;
 
-	// 访问指针中地址的值
+	// 访问指针变量中地址的值
 	cout << "Value of *ip variable: ";
 	cout << *ip << endl;
 
