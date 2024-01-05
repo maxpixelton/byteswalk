@@ -3,7 +3,7 @@
 
 # Project information
 site_name: Byteswalk!
-site_url: https://maxpixelton.github.io/byteswalk/ # build and run on server, to visit it, type in the server's IP address and port number like this: xxx.xxx.xxx.xxx:8000
+site_url: https://Shichuan-hao.github.io/byteswalk/ # build and run on server, to visit it, type in the server's IP address and port number like this: xxx.xxx.xxx.xxx:8000
 site_author: Shichuan Hao
 site_description: >-
   Welcome to Shaun's rabbit hole. This site serves as a personal knowledge base for me to record my thoughts and ideas. It is also a place for me to share my knowledge and experience with the world. I hope you find something useful here.(欢迎来到肖恩的兔子洞。这个网站是我的个人知识库，用来记录我的想法和创意。它也是我与世界分享我的知识和经验的地方。希望你能在这里找到有用的东西。)
@@ -141,6 +141,7 @@ plugins:
             博客: BLOG
             字节漫步: Byteswalk
             工具和安装: TOOLSETUP
+            深入理解计算机系统: CSAPP
 # # Hooks
 # hooks:
 #   - material/overrides/hooks/shortcodes.py
@@ -259,15 +260,18 @@ markdown_extensions:
 # Page Navigation Tree（页面导航树）
 nav:
   - 首页: 
-      - "index.md"
-      - 关于: "./HOME/about.md"
-      - 赞助: "./HOME/sponsorship.md"
+    - "index.md"
+    - 关于: "./HOME/about.md"
+    - 赞助: "./HOME/sponsorship.md"
   - 数学:
-      - "./MATH/resource.md"
+    - "./MATH/resource.md"
   - 计算机科学: 
-      - "./CS/preamble.md" 
+    - "./CS/preamble.md" 
+    - "./CS/csapp.md"
   - C/C++:
     - "./CODING/C-C++/summary.md"
+    - C:
+      - "./CODING/C-C++/C/get-stared.md"
     - C++:
       - "./CODING/C-C++/C++/get-started.md"
       - "./CODING/C-C++/C++/syntax.md"
