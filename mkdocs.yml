@@ -39,7 +39,7 @@ theme:
     - navigation.instant.progress # loading progress bar
     - navigation.path # breadcrumb path on top of page
     # - navigation.prune # only build the visible part of the navigation tree
-    - navigation.sections # navigation - top level will render as sections
+    # - navigation.sections # navigation - top level will render as sections
     - navigation.tabs
     - navigation.tabs.sticky # tabs stick to the top of the page
     - navigation.top
@@ -142,6 +142,7 @@ plugins:
             字节漫步: Byteswalk
             工具和安装: TOOLSETUP
             深入理解计算机系统: CSAPP
+            必须工具: Productivity Toolkit
 # # Hooks
 # hooks:
 #   - material/overrides/hooks/shortcodes.py
@@ -268,40 +269,47 @@ nav:
   - 计算机科学: 
     - "./CS/preamble.md" 
     - "./CS/csapp.md"
-  - C/C++:
-    - "./CODING/C-C++/summary.md"
-    - C:
-      - "./CODING/C-C++/C/get-stared.md"
-    - C++:
-      - "./CODING/C-C++/C++/get-started.md"
-      - "./CODING/C-C++/C++/syntax.md"
-      - "./CODING/C-C++/C++/poniter.md"
-      
-  - Java:
-    - "./CODING/JAVA/basic.md"
-    - "./CODING/JAVA/collection.md"
-  # - Python: 
-  #   - "./CODING/PYTHON/basic.md"
-  #   - "./CODING/PYTHON/collection.md"
-  # - R:
-  #   - "./CODING/R/basic.md"
-  #   - "./CODING/R/collection.md"
-  - Web: 
-    - "./CODING/WEB/web.md"
-    - "./CODING/WEB/get-started-web.md"
-    - "./CODING/WEB/web-mechanism.md"
-    - "./CODING/WEB/tools-and-setup.md"
-    - "./CODING/WEB/design-and-accessibility.md"
-    - HTML: "./CODING/WEB/HTML/html.md"
-    - CSS: "./CODING/WEB/CSS/css.md"
-    - JAVASCRIPT: "./CODING/WEB/JS/js.md"
-  - 云: 
-      - "./CLOUD/cloud.md"
-      - 云技术: "./CLOUD/CLOUD-TECH/cloud-tech.md"
-      - 上手实战:
-          - 拥有一台服务器: "./CLOUD/HANDS-ON/001-HAVE-A-SERVER/have-a-server.md"
-          - 服务器配置: "./CLOUD/HANDS-ON/002-SERVER-CONFIG/server-config.md"
-          - 获得一个域名: "./CLOUD/HANDS-ON/003-DOMAIN-NAME/domain-name.md"
+    - 必学工具: 
+      - "./CS/TOOLS/scoop.md"
+      - "./CS/TOOLS/usefull-tools.md"
+      # - "./CS/TOOLS/vim.md"
+      # - "./CS/TOOLS/emacs.md"
+      # - "./CS/TOOLS/github.md"
+  - 编程: 
+    - C/C++:
+      - "./CODING/C-C++/summary.md"
+      - C:
+        - "./CODING/C-C++/C/get-stared.md"
+      - C++:
+        - "./CODING/C-C++/C++/get-started.md"
+        - "./CODING/C-C++/C++/syntax.md"
+        - "./CODING/C-C++/C++/poniter.md"
+        
+    - Java:
+      - "./CODING/JAVA/basic.md"
+      - "./CODING/JAVA/collection.md"
+    # - Python: 
+    #   - "./CODING/PYTHON/basic.md"
+    #   - "./CODING/PYTHON/collection.md"
+    # - R:
+    #   - "./CODING/R/basic.md"
+    #   - "./CODING/R/collection.md"
+    - Web: 
+      - "./CODING/WEB/web.md"
+      - "./CODING/WEB/get-started-web.md"
+      - "./CODING/WEB/web-mechanism.md"
+      - "./CODING/WEB/tools-and-setup.md"
+      - "./CODING/WEB/design-and-accessibility.md"
+      - HTML: "./CODING/WEB/HTML/html.md"
+      - CSS: "./CODING/WEB/CSS/css.md"
+      - JAVASCRIPT: "./CODING/WEB/JS/js.md"
+  # - 云: 
+  #     - "./CLOUD/cloud.md"
+  #     - 云技术: "./CLOUD/CLOUD-TECH/cloud-tech.md"
+  #     - 上手实战:
+  #         - 拥有一台服务器: "./CLOUD/HANDS-ON/001-HAVE-A-SERVER/have-a-server.md"
+  #         - 服务器配置: "./CLOUD/HANDS-ON/002-SERVER-CONFIG/server-config.md"
+  #         - 获得一个域名: "./CLOUD/HANDS-ON/003-DOMAIN-NAME/domain-name.md"
   - 项目: 
       - "./PROJECT/project.md"
       - "./PROJECT/TECH-BLOG/mkdocs_and_material.md"

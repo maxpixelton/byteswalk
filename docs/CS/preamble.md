@@ -13,81 +13,26 @@
 
 计算机领域方向庞杂，知识浩如烟海，每个细分领域如果深究下去都可以说学无止境。因此，一个清晰明确的学习规划是非常重要的。
 
-<div class="grid cards" markdown>
-
--   :fontawesome-brands-bilibili:{ .lg .middle } __Crash Course:Computer Secience ✅ 🏆__
-
-    ---
-
-    非常非常非常好的计算机科学入门视频系列，强烈推荐！
-    
-    短短 8 小时里非常生动且全面地科普了关于计算机科学的方方面面：
-    
-    - 计算机的历史。
-    - 计算机是如何运作。
-    - 组成计算机的各个重要模块。
-    - 计算机科学中的重要思想。
-    - ...
-
-    正如它的口号所说的 *Computers are not magic* ! 看完这个视频后能对计算机科学有个全貌性地感知，进而怀着兴趣面对下面浩如烟海的更为细致且深入的学习内容。
-
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1EW411u7th/?spm_id_from=333.1007.tianma.1-1-1.click" target="_blank"> 传送门 </a>](#)
-
-</div>
-
-## 必须工具
-
-> 俗话说：磨刀不误砍柴工，学会一些工具将会事半功倍。
-
-<div class="grid cards" markdown>
-
--   :book:{ .lg .middle }  __学会提问 ✅ 🏆__
-
-    ---
-
-    提问是计算机必备技能！！！
-
-    [:octicons-arrow-right-24: <a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md" target="_blank"> 传送门 </a>](#)
-
-</div>
-
-<div class="grid cards" markdown>
-
--   :blowfish:{ .lg .middle } __MIT-Missing-Semester ✅ 🏆__
-
-    ---
-
-    
-
-    [:octicons-arrow-right-24: <a href="https://missing.csail.mit.edu/2020/" target="_blank"> 课程网站 </a>](#)
-
-    [:octicons-arrow-right-24: <a href="https://missing-semester-cn.github.io/" target="_blank"> 课程中文网站 </a>](#)
-    
-    [:octicons-arrow-right-24: <a href="https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J" target="_blank"> 课程视频 </a>](#)
-
-</div>
-
-
-## 好书推荐
-
-## 环境配置
-
-### PC 端环境配置
-### 服务配置
-
-
-## 课程地图
-
-### 编程入门
-
-#### Shell
-#### Python
-#### C++
-#### Rust
-
-#### 数据结构与算法
-
-#### 软件工程
-##### 入门课
-##### 专业课
-
+- [ ] 必学工具
+- [ ] 数学
+    - [ ] 基础
+    - [ ] 进阶 
+- [ ] 编程入门
+    - [ ] Shell
+        - [ ] MIT-Missing-Semester
+        - [ ] 
+    - [ ] C/C++
+        - [ ] Stanford CS106B/X: Programming Abstractions
+        - [ ] Stanford CS106L: Standard C++ Programming
+    - [x] Java
+    - [ ] Python
+- [ ] 数据结构与算法
+- [ ] 软件工程
+- [ ] 体系结构
+- [ ] 操作系统
+- [ ] 并行与分布式系统
+- [ ] 计算机系统安全
+- [ ] 计算机网络
+- [ ] 数据库系统
+- [ ] 编译原理
+- [ ] Web 开发
