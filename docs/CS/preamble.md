@@ -20,7 +20,6 @@
 - [ ] 编程入门
     - [ ] Shell
         - [ ] MIT-Missing-Semester
-        - [ ] 
     - [ ] C/C++
         - [ ] Stanford CS106B/X: Programming Abstractions
         - [ ] Stanford CS106L: Standard C++ Programming
@@ -31,8 +30,11 @@
 - [ ] 体系结构
 - [ ] 操作系统
 - [ ] 并行与分布式系统
+    - [ ] https://pdos.csail.mit.edu/6.824/schedule.html
 - [ ] 计算机系统安全
 - [ ] 计算机网络
 - [ ] 数据库系统
+    - [ ] [CMU 15-445: Database Systems](https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/15445/)
 - [ ] 编译原理
 - [ ] Web 开发
+    - [ ] [MIT Web Development Crash Course](https://weblab.mit.edu/schedule/)

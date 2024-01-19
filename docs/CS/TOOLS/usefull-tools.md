@@ -21,11 +21,11 @@
 
 - [uTorrent](): BitTorrent 客户端。
 
-- [全国标准信息公共服务平台]()：各类标准查询和下载官方平台。
+- [全国标准信息公共服务平台](https://std.samr.gov.cn/)：各类标准查询和下载官方平台。
 
-- [标准知识服务系统]()：检索与阅读所需标准。
+- [标准知识服务系统](http://www.standards.com.cn/)：检索与阅读所需标准。
 
-- [MSDN,我告诉你](): Windows 操作系统镜像下载站，也有许多其他软件的下载。
+- [MSDN,我告诉你](https://msdn.itellyou.cn/): Windows 操作系统镜像下载站，也有许多其他软件的下载。
 
 
 
@@ -33,137 +33,137 @@
 ## 设计工具
 
 
-- [excalidraw](): 一款手绘风格的绘图工具，非常适合绘制课程报告或者PPT内的示意图。
+- [excalidraw](https://excalidraw.com/): 一款手绘风格的绘图工具，非常适合绘制课程报告或者PPT内的示意图。
 
-- [tldraw](): 一个绘图工具，适合画流程图，架构图等。
+- [tldraw](https://www.tldraw.com/): 一个绘图工具，适合画流程图，架构图等。
 
-- [draw.io]: 强大简洁的在线的绘图网站，支持流程图，UML图，架构图，原型图等等，支持 Onedrive, Google Drive, Github 导出，同时提供离线客户端。
+- [draw.io](https://app.diagrams.net/): 强大简洁的在线的绘图网站，支持流程图，UML图，架构图，原型图等等，支持 Onedrive, Google Drive, Github 导出，同时提供离线客户端。
 
-- [origamiway](): 手把手教你怎么折纸。
+- [origamiway](https://www.origamiway.com/paper-folding-crafts-step-by-step.shtml): 手把手教你怎么折纸。
 
-- [thingiverse](): 囊括各类 2D/3D 设计资源，其 STL 文件下载可直接 3D 打印。
+- [thingiverse](https://www.thingiverse.com/): 囊括各类 2D/3D 设计资源，其 STL 文件下载可直接 3D 打印。
 
-- [iconfont](): 国内最大的图标和插画资源库，可用于开发或绘制系统架构图。
+- [iconfont](https://www.iconfont.cn/): 国内最大的图标和插画资源库，可用于开发或绘制系统架构图。
 
-- [turbosquid](): 可以购买各式各样的模型。
+- [turbosquid](https://www.turbosquid.com/): 可以购买各式各样的模型。
 
-- [flaticon](): 可下载免费且高质量的图标。
+- [flaticon](https://www.flaticon.com/): 可下载免费且高质量的图标。
 
-- [标准地图服务系统](): 可以下载官方标准地图。
+- [标准地图服务系统](http://bzdt.ch.mnr.gov.cn/): 可以下载官方标准地图。
 
-- [PlantUML](): 可以使用代码快速编写 UML 图。
+- [PlantUML](https://plantuml.com/zh/): 可以使用代码快速编写 UML 图。
 
 
 ## 编程相关
 
 
-- [sqlfiddle](): 一个简易的在线 SQL Playground。
+- [sqlfiddle](https://www.sqlfiddle.com/): 一个简易的在线 SQL Playground。
 
-- [sqlzoo]()：在线练习 sql 语句。
+- 🔥[__sqlzoo__](https://sqlzoo.net/wiki/SQL_Tutorial)：在线练习 sql 语句。
 
-- [godbolt](): 非常方便的编译器探索工具。你可以写一段 C/C++ 代码，选择一款编译器，然后便可以观察生成的具体汇编代码。
+- 🔥[__godbolt__](https://godbolt.org/): 非常方便的编译器探索工具。你可以写一段 C/C++ 代码，选择一款编译器，然后便可以观察生成的具体汇编代码。
 
-- [explainshell](): 你是否曾为一段 shell 代码的具体含义感到困扰？manpage 看半天还是不明所以？试试这个网站！
+- 🔥[__explainshell__](https://explainshell.com/): 你是否曾为一段 shell 代码的具体含义感到困扰？manpage 看半天还是不明所以？试试这个网站！
 
-- [regex101](): 正则表达式调试网站，支持各种编程语言的匹配标准。
+- 🔥[__regex101__](https://regex101.com/): 正则表达式调试网站，支持各种编程语言的匹配标准。
 
-- [typingtom](): 针对程序员的打字练习/测速网站。
+- [typingtom](https://www.typingtom.com/lessons): 针对程序员的打字练习/测速网站。
 
-- [wrk](): 网站压测工具。
+- [wrk](https://github.com/wg/wrk): 网站压测工具。
 
-- [gbmb](): 数据单位转换。
+- [gbmb](https://www.gbmb.org/): 数据单位转换。
 
-- [tools](): 在线工具合集。
+- [tools](https://tools.fun/): 在线工具合集。
 
-- [github1s](): 用网页版 VS Code 在线阅读 GitHub 代码。
+- [github1s](https://github1s.com/): 用网页版 VS Code 在线阅读 GitHub 代码。
 
-- [visualgo](): 算法可视化网站。
+- [visualgo](https://visualgo.net/en): 算法可视化网站。
 
-- [DataStructureVisual](): 数据结构可视化网站。
+- [DataStructureVisual](http://www.rmboot.com/): 数据结构可视化网站。
 
-- [Data Structure Visualizations](): 数据结构与算法的可视化网站。
+- [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html): 数据结构与算法的可视化网站。
 
-- [learngitbranching](): 可视化学习 git。
+- [learngitbranching](https://learngitbranching.js.org/?locale=zh_CN): 可视化学习 git。
 
-- [UnicodeCharacter](): Unicode 字符集网站。
+- [UnicodeCharacter](https://symbl.cc/en/unicode/table/): Unicode 字符集网站。
 
 ## 学习网站
 
-- [HFS](): 各类软件教程。
+- [HFS](https://hepsoftwarefoundation.org/training/center.html): 各类软件教程。
 
-- [Shadertoy](): 编写各式各样的 shader。
+- ☁️[Shadertoy](https://www.shadertoy.com/): 编写各式各样的 shader。
 
-- [comments-for-awesome-courses](): 名校公开课评价网。
+- [comments-for-awesome-courses](https://conanhujinming.github.io/comments-for-awesome-courses/): 名校公开课评价网。
 
-- [codetop](): 企业题库。
+- [codetop](https://codetop.cc/home): 企业题库。
 
-- [cs-video-courses](): 带有视频讲座的计算机科学课程列表。
+- [cs-video-courses](https://github.com/Developer-Y/cs-video-courses): 带有视频讲座的计算机科学课程列表。
 
-- [bootlin](): 在线阅读 Linux 源码。
+- [bootlin](https://elixir.bootlin.com/linux/v2.6.39.4/source/include/linux): 在线阅读 Linux 源码。
 
-- [ecust-CourseShare](): 华东师范大学研究生课程攻略共享计划。
+- [ecust-CourseShare](https://github.com/Developer-Y/cs-video-courses): 华东师范大学研究生课程攻略共享计划。
 
-- [REKCARC-TSC-UHT](): 清华大学计算机系课程攻略。
+- [REKCARC-TSC-UHT](https://github.com/PKUanonym/REKCARC-TSC-UHT): 清华大学计算机系课程攻略。
 
-- [seu-master](): 东南大学研究生课程资料整理。
+- [seu-master](https://github.com/oneman233/seu-master): 东南大学研究生课程资料整理。
 
-- [菜鸟教程](): 计算机相关知识的简要的教程。
+- [菜鸟教程](https://www.runoob.com/): 计算机相关知识的简要的教程。
 
-- [FreeBSD 从入门到跑路](): 一本 FreeBSD 的中文教程。
+- [FreeBSD 从入门到跑路](https://book.bsdcn.org/): 一本 FreeBSD 的中文教程。
 
-- [MDN Web Docs](): MDN 网络开发入门手册。
+- [MDN Web Docs](https://developer.mozilla.org/zh-CN/docs/Learn): MDN 网络开发入门手册。
 
-- [Hello 算法](): 动画图解、能运行、可提问的数据结构与算法快速入门教程。
+- [Hello 算法](https://www.hello-algo.com/): 动画图解、能运行、可提问的数据结构与算法快速入门教程。
 
 
 
 ## 百科网站/词典性质的网站
 
 
-- [os-wiki](): 操作系统技术资源百科全书。
+- [os-wiki](https://wiki.osdev.org/Main_Page): 操作系统技术资源百科全书。
 
-- [FreeBSD Documentation](): FreeBSD 官方文档。
+- [FreeBSD Documentation](https://docs.freebsd.org/en/): FreeBSD 官方文档。
 
-- [Python3 Documentation](): Python3 官方中文文档。
+- [Python3 Documentation](https://docs.python.org/zh-cn/3/): Python3 官方中文文档。
 
-- [C++ Reference](): C++ 参考手册。
+- [C++ Reference](https://en.cppreference.com/w/): C++ 参考手册。
 
-- [OI Wiki](): 编程竞赛知识整合站点。
+- [OI Wiki](https://oi-wiki.org/): 编程竞赛知识整合站点。
 
-- [Microsoft Learn](): 微软官方的学习平台，包含了绝大多数微软产品的文档。
+- [Microsoft Learn](https://learn.microsoft.com/zh-cn/): 微软官方的学习平台，包含了绝大多数微软产品的文档。
 
-- [Arch Wiki](): 专为 Arch Linux 而写的 Wiki，包含了大量 Linux 相关的知识。
+- [Arch Wiki](https://wiki.archlinux.org/): 专为 Arch Linux 而写的 Wiki，包含了大量 Linux 相关的知识。
 
-- [Qt Wiki](): Qt 官方 Wiki。
+- [Qt Wiki](https://wiki.qt.io/Main): Qt 官方 Wiki。
 
-- [OpenCV 中文文档](): OpenCV 的社区版中文文档。
+- [OpenCV 中文文档](https://opencv.apachecn.org/#/): OpenCV 的社区版中文文档。
 
-- [npm Docs](): npm 官方文档。
+- [npm Docs](https://docs.npmjs.com/): npm 官方文档。
 
 
 
 ## 交流平台
 
 
-- [GitHub](): 许多开源项目的托管平台，也是许多开源项目的主要交流平台，通过查看 issue 可以解决许多问题。
+- [GitHub](https://github.com/): 许多开源项目的托管平台，也是许多开源项目的主要交流平台，通过查看 issue 可以解决许多问题。
 
 
-- [StackExchange](): Stack Exchange 是由 181 个问答社区组成（其中包括 Stack Overflow）的编程社区。
+- [StackExchange](https://stackexchange.com/): Stack Exchange 是由 181 个问答社区组成（其中包括 Stack Overflow）的编程社区。
 
 
-- [StackOverflow](): Stack Overflow 是一个与程序相关的 IT 技术问答网站。
+- [StackOverflow](https://stackoverflow.com/): Stack Overflow 是一个与程序相关的 IT 技术问答网站。
 
 
-- [Gitee](): 一个类似于 GitHub 的代码托管平台，可以在对应项目的 issue 里查找一些常见问题的解答。
+- [Gitee](https://gitee.com/): 一个类似于 GitHub 的代码托管平台，可以在对应项目的 issue 里查找一些常见问题的解答。
 
 
-- [知乎](): 一个类似于 Quora 的问答社区，可以在其中提问，一些问答包含有计算机的知识。
+- [知乎](https://www.zhihu.com/signin?next=%2F): 一个类似于 Quora 的问答社区，可以在其中提问，一些问答包含有计算机的知识。
 
 
-- [博客园](): 一个面向开发者的知识分享社区，拥有一些常见问题的博客，正确率不能保证，请谨慎使用。
+- [博客园](https://www.cnblogs.com/): 一个面向开发者的知识分享社区，拥有一些常见问题的博客，正确率不能保证，请谨慎使用。
 
 
-- [CSDN](): 拥有一些常见问题的博客，正确率不能保证，请谨慎使用。
+- [CSDN](https://blog.csdn.net/): 拥有一些常见问题的博客，正确率不能保证，请谨慎使用。
 
 
 ## 杂项
