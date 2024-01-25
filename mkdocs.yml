@@ -288,6 +288,7 @@ nav:
     - Java:
       - "./CODING/JAVA/basic.md"
       - "./CODING/JAVA/collection.md"
+      - "./CODING/JAVA/new-feature.md"
     # - Python: 
     #   - "./CODING/PYTHON/basic.md"
     #   - "./CODING/PYTHON/collection.md"

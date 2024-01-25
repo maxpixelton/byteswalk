@@ -13,7 +13,7 @@
 
 计算机领域方向庞杂，知识浩如烟海，每个细分领域如果深究下去都可以说学无止境。因此，一个清晰明确的学习规划是非常重要的。
 
-- [ ] 必学工具
+<!-- - [ ] 必学工具
 - [ ] 数学
     - [ ] 基础
     - [ ] 进阶 
@@ -48,4 +48,12 @@
     - [ ] [CMU 15-445: Database Systems](https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/15445/)
 - [ ] 编译原理
 - [ ] Web 开发
-    - [ ] [MIT Web Development Crash Course](https://weblab.mit.edu/schedule/)
+    - [ ] [MIT Web Development Crash Course](https://weblab.mit.edu/schedule/) -->
+
+
+- [x] Lorem ipsum dolor sit amet, consectetur adipiscing elit
+- [ ] Vestibulum convallis sit amet nisi a tincidunt
+    * [x] In hac habitasse platea dictumst
+    * [x] In scelerisque nibh non dolor mollis congue sed et metus
+    * [ ] Praesent sed risus massa
+- [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
