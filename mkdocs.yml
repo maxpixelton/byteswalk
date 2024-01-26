@@ -286,8 +286,10 @@ nav:
         - "./CODING/C-C++/C++/poniter.md"
         
     - Java:
-      - "./CODING/JAVA/basic.md"
-      - "./CODING/JAVA/collection.md"
+      # - "./CODING/JAVA/basic.md"
+      # - "./CODING/JAVA/collection.md"
+      - 基础:
+        - "./CODING/JAVA/BASIC/pass-by-value.md"
       - 特性:
         - "./CODING/JAVA/FEATURE/new-feature.md"
     # - Python: 
