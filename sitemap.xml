@@ -99,6 +99,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/collection/"/>
     </url>
     <url>
+        <loc>https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/BASIC/pass-by-value/</loc>
+        <lastmod>2024-01-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/BASIC/pass-by-value/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/BASIC/pass-by-value/"/>
+    </url>
+    <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/FEATURE/new-feature/</loc>
         <lastmod>2024-01-26</lastmod>
         <changefreq>daily</changefreq>
@@ -377,6 +384,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/collection/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/collection/"/>
+    </url>
+    <url>
+        <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/BASIC/pass-by-value/</loc>
+        <lastmod>2024-01-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/BASIC/pass-by-value/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/BASIC/pass-by-value/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/FEATURE/new-feature/</loc>
