@@ -288,7 +288,8 @@ nav:
     - Java:
       - "./CODING/JAVA/basic.md"
       - "./CODING/JAVA/collection.md"
-      - "./CODING/JAVA/new-feature.md"
+      - 特性:
+        - "./CODING/JAVA/FEATURE/new-feature.md"
     # - Python: 
     #   - "./CODING/PYTHON/basic.md"
     #   - "./CODING/PYTHON/collection.md"
