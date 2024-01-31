@@ -1,4 +1,4 @@
-# NEw Feature
+# New Feature
 
 This release is the Reference Implementation of version 21 of the Java SE Platform, as specified by JSR 396 in the Java Community Process.
 
