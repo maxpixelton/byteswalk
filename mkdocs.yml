@@ -269,13 +269,16 @@ nav:
   - 计算机科学: 
     - "./CS/preamble.md" 
     - "./CS/csapp.md"
+    - 数据结构和算法:
+      - 算法: 
+        - "./CS/DSA/A/two-pointers.md"
     - 必学工具: 
       - "./CS/TOOLS/scoop.md"
       - "./CS/TOOLS/usefull-tools.md"
       # - "./CS/TOOLS/vim.md"
       # - "./CS/TOOLS/emacs.md"
       # - "./CS/TOOLS/github.md"
-  - 编程: 
+  - 编程语言: 
     - C/C++:
       - "./CODING/C-C++/summary.md"
       - C:
@@ -284,7 +287,6 @@ nav:
         - "./CODING/C-C++/C++/get-started.md"
         - "./CODING/C-C++/C++/syntax.md"
         - "./CODING/C-C++/C++/poniter.md"
-        
     - Java:
       # - "./CODING/JAVA/basic.md"
       # - "./CODING/JAVA/collection.md"
@@ -312,6 +314,9 @@ nav:
       - HTML: "./CODING/WEB/HTML/html.md"
       - CSS: "./CODING/WEB/CSS/css.md"
       - JAVASCRIPT: "./CODING/WEB/JS/js.md"
+  - 软件工程:
+    - "./SOFTWARE/about.md"
+  
   # - 云: 
   #     - "./CLOUD/cloud.md"
   #     - 云技术: "./CLOUD/CLOUD-TECH/cloud-tech.md"
@@ -320,7 +325,6 @@ nav:
   #         - 服务器配置: "./CLOUD/HANDS-ON/002-SERVER-CONFIG/server-config.md"
   #         - 获得一个域名: "./CLOUD/HANDS-ON/003-DOMAIN-NAME/domain-name.md"
   - 项目: 
-      - "./PROJECT/project.md"
       - "./PROJECT/TECH-BLOG/mkdocs_and_material.md"
       - "./PROJECT/文字和排版.md"
       - "./PROJECT/gemoij_db.md"

@@ -304,15 +304,20 @@ public ArrayList(Collection<? extends E> c) {
 
 #### add(E e)
 
+添加元素到末尾，平均事件复杂度为：`O(n)`
+
 ```java title="源码"
 /**
  * Appends the specified element to the end of this list.
+ * 
+ * 将指定元素添加到列表 list 的末尾
  *
  * @param e element to be appended to this list
  * @return <tt>true</tt> (as specified by {@link Collection#add})
  */
 public boolean add(E e) {
-    ensureCapacityInternal(size + 1);  // Increments modCount!!
+    // 检查是否需要扩容
+    ensureCapacityInternal(size + 1);  // Increments modCount （）!!
     elementData[size++] = e;
     return true;
 }
@@ -322,6 +327,7 @@ private void ensureCapacityInternal(int minCapacity) {
 }
 
 private static int calculateCapacity(Object[] elementData, int minCapacity) {
+    // 如果是空数组 DEFAULTCAPACITY_EMPTY_ELEMENTDATA，就初始化为默认大小 10
     if (elementData == DEFAULTCAPACITY_EMPTY_ELEMENTDATA) {
         return Math.max(DEFAULT_CAPACITY, minCapacity);
     }
@@ -332,6 +338,7 @@ private void ensureExplicitCapacity(int minCapacity) {
     modCount++;
     // overflow-conscious code
     if (minCapacity - elementData.length > 0)
+        // 扩容
         grow(minCapacity);
 }
 
@@ -344,269 +351,394 @@ private void ensureExplicitCapacity(int minCapacity) {
 private void grow(int minCapacity) {
     // overflow-conscious code
     int oldCapacity = elementData.length;
+    // 新容量为旧容量的 1.5 倍
     int newCapacity = oldCapacity + (oldCapacity >> 1);
+    // 如果新容量发现比需要的容量还小，就以需要的容量为准
     if (newCapacity - minCapacity < 0)
         newCapacity = minCapacity;
+    // 如果新容量已经超过最大容量了，就使用最大容量
     if (newCapacity - MAX_ARRAY_SIZE > 0)
         newCapacity = hugeCapacity(minCapacity);
     // minCapacity is usually close to size, so this is a win:
+    // 以新容量拷贝出来一个新数组
     elementData = Arrays.copyOf(elementData, newCapacity);
 }
-
-private static int hugeCapacity(int minCapacity) {
-    if (minCapacity < 0) // overflow
-        throw new OutOfMemoryError();
-    return (minCapacity > MAX_ARRAY_SIZE) ?
-        Integer.MAX_VALUE :
-        MAX_ARRAY_SIZE;
-}
 ```
+1. 检查是否需要扩容。
+
+2. 如果 elementData 等于 DEFAUTLCAPACITY_EMPTY_ELEMENTDATA, 就初始化容量大小为 DEFAULT_CAPACITY。
+
+3. 新容量是老容量的 1.5 倍（oldCapacity + ( oldCapacity >> 1)）。如果加了这么多容量发现比需要的容量还小，就以需要的容量为准。
+
+4. 创建新容量的数组并把老数组拷贝到新数组。
 
 #### add(int index, E element)
 
+添加元素到指定位置，平均事件复杂度为 `O(n)`
+
 ```Java title="源码"
-    /**
-     * Inserts the specified element at the specified position in this
-     * list. Shifts the element currently at that position (if any) and
-     * any subsequent elements to the right (adds one to their indices).
-     *
-     * @param index index at which the specified element is to be inserted
-     * @param element element to be inserted
-     * @throws IndexOutOfBoundsException {@inheritDoc}
-     */
-    public void add(int index, E element) {
-        rangeCheckForAdd(index);
+/**
+ * Inserts the specified element at the specified position in this
+ * list. Shifts the element currently at that position (if any) and
+ * any subsequent elements to the right (adds one to their indices).
+ *
+ * @param index index at which the specified element is to be inserted
+ * @param element element to be inserted
+ * @throws IndexOutOfBoundsException {@inheritDoc}
+ */
+public void add(int index, E element) {
+    // 检查是否越界
+    rangeCheckForAdd(index);
+    // 检查是否需要扩容
+    ensureCapacityInternal(size + 1);  // Increments modCount!!
+    // 将 index 及其之后的元素往后挪一位，则 index 位置处就空出来了
+    System.arraycopy(elementData, index, elementData, index + 1, size - index);
+    // 将元素插入到 index 的位置
+    elementData[index] = element;
+    // 大小增 1
+    size++;
+}
 
-        ensureCapacityInternal(size + 1);  // Increments modCount!!
-        System.arraycopy(elementData, index, elementData, index + 1,
-                         size - index);
-        elementData[index] = element;
-        size++;
-    }
-
-        /**
-     * A version of rangeCheck used by add and addAll.
-     */
-    private void rangeCheckForAdd(int index) {
-        if (index > size || index < 0)
-            throw new IndexOutOfBoundsException(outOfBoundsMsg(index));
-    }
+/**
+ * A version of rangeCheck used by add and addAll.
+ */
+private void rangeCheckForAdd(int index) {
+    if (index > size || index < 0)
+        throw new IndexOutOfBoundsException(outOfBoundsMsg(index));
+}
 ```
+
+1. 检查索引是否越界。
+
+2. 检查是否需要扩容。
+
+3. 把插入索引位置后的元素都往后挪一位。
+
+4. 在插入索引位置放置插入的元素。
+
+5. 大小加 1。
 
 #### addAll(Collection<? extends E> c)
 
+求两个集合的并集。
+
 ```Java title="源码"
+/**
+ * 将集合 c 中的所有元素添加到当前的 ArrayList 中
+ * 
+ * Appends all of the elements in the specified collection to the end of
+ * this list, in the order that they are returned by the
+ * specified collection's Iterator.  The behavior of this operation is
+ * undefined if the specified collection is modified while the operation
+ * is in progress.  (This implies that the behavior of this call is
+ * undefined if the specified collection is this list, and this
+ * list is nonempty.)
+ *
+ * @param c collection containing elements to be added to this list（要添加到 List 中的集合 C）
+ * @return <tt>true</tt> if this list changed as a result of the call
+ * @throws NullPointerException if the specified collection is null
+ */
+public boolean addAll(Collection<? extends E> c) {
+    // 将集合 c 转为数组
+    Object[] a = c.toArray();
+    int numNew = a.length;
+    // 检查是否需要扩容
+    ensureCapacityInternal(size + numNew);  // Increments modCount
     /**
-     * Appends all of the elements in the specified collection to the end of
-     * this list, in the order that they are returned by the
-     * specified collection's Iterator.  The behavior of this operation is
-     * undefined if the specified collection is modified while the operation
-     * is in progress.  (This implies that the behavior of this call is
-     * undefined if the specified collection is this list, and this
-     * list is nonempty.)
-     *
-     * @param c collection containing elements to be added to this list
-     * @return <tt>true</tt> if this list changed as a result of the call
-     * @throws NullPointerException if the specified collection is null
+     * 将 c 中元素全部拷贝到数据组的最后
      */
-    public boolean addAll(Collection<? extends E> c) {
-        Object[] a = c.toArray();
-        int numNew = a.length;
-        ensureCapacityInternal(size + numNew);  // Increments modCount
-        System.arraycopy(a, 0, elementData, size, numNew);
-        size += numNew;
-        return numNew != 0;
-    }
+    System.arraycopy(a, 0, elementData, size, numNew);
+    // 大小增加 c 的大小
+    ize += numNew;
+    // 如果 c 不为空就返回 true，否则返回 false
+    return numNew != 0;
+}
 ```
+
+1. 拷贝 3 中的元素到数组 a 中。
+
+2. 检查是否需要扩容。
+
+3. 将数组 a 中的元素全部拷贝到 elementData 的尾部。
 
 #### get(int index)
 
+获取指定索引位置的元素，时间复杂度为 O(1)
+
 ```Java title="源码"
-    /**
-     * Returns the element at the specified position in this list.
-     *
-     * @param  index index of the element to return
-     * @return the element at the specified position in this list
-     * @throws IndexOutOfBoundsException {@inheritDoc}
-     */
-    public E get(int index) {
-        rangeCheck(index);
+/**
+ * Returns the element at the specified position in this list.
+ *
+ * @param  index index of the element to return
+ * @return the element at the specified position in this list
+ * @throws IndexOutOfBoundsException {@inheritDoc}
+ */
+public E get(int index) {
+    // 检查是否越界
+    rangeCheck(index);
+    // 返回数组 index 位置的元素
+    return elementData(index);
+}
 
-        return elementData(index);
-    }
+/**
+ * Checks if the given index is in range.  If not, throws an appropriate
+ * runtime exception.  This method does *not* check if the index is
+ * negative: It is always used immediately prior to an array access,
+ * which throws an ArrayIndexOutOfBoundsException if index is negative.
+ */
+private void rangeCheck(int index) {
+    if (index >= size)
+        throw new IndexOutOfBoundsException(outOfBoundsMsg(index));
+}
 
-        /**
-     * Checks if the given index is in range.  If not, throws an appropriate
-     * runtime exception.  This method does *not* check if the index is
-     * negative: It is always used immediately prior to an array access,
-     * which throws an ArrayIndexOutOfBoundsException if index is negative.
-     */
-    private void rangeCheck(int index) {
-        if (index >= size)
-            throw new IndexOutOfBoundsException(outOfBoundsMsg(index));
-    }
-
-        @SuppressWarnings("unchecked")
-    E elementData(int index) {
-        return (E) elementData[index];
-    }
-
+@SuppressWarnings("unchecked")
+E elementData(int index) {
+    return (E) elementData[index];
+}
 ```
+
+1. 检查索引是否越界，这里只检查是否越上界。如果越上界抛出 IndexOutOfBoundsException 异常，如果越下界抛出的是 ArrayIndexOutOfBoundsException 异常。
+
+2. 返回索引位置处的元素。
 
 #### remove(int index)
 
+删除指定索引位置的元素，时间复杂度 O(n)
 
 ```Java title="源码"
-        /**
-     * Removes the element at the specified position in this list.
-     * Shifts any subsequent elements to the left (subtracts one from their
-     * indices).
-     *
-     * @param index the index of the element to be removed
-     * @return the element that was removed from the list
-     * @throws IndexOutOfBoundsException {@inheritDoc}
-     */
-    public E remove(int index) {
-        rangeCheck(index);
+/**
+ * Removes the element at the specified position in this list.
+ * Shifts any subsequent elements to the left (subtracts one from their
+ * indices).
+ * 
+ * 移除列表 list 指定位置的元素。
+ *
+ * @param index the index of the element to be removed 将被移除的元素的索引
+ * @return the element that was removed from the list 列表 list 被移除的元素
+ * @throws IndexOutOfBoundsException {@inheritDoc}
+ */
+public E remove(int index) {
+    // 检查是否越界
+    rangeCheck(index);
 
-        modCount++;
-        E oldValue = elementData(index);
-
-        int numMoved = size - index - 1;
-        if (numMoved > 0)
-            System.arraycopy(elementData, index+1, elementData, index,
-                             numMoved);
-        elementData[--size] = null; // clear to let GC do its work
-
-        return oldValue;
-    }
+    modCount++;
+    // 获取 index 位置的元素
+    E oldValue = elementData(index);
+    // 如果 index 不是最后一位，就将 index 之后的元素往前挪一位
+    int numMoved = size - index - 1;
+    if (numMoved > 0)
+        System.arraycopy(elementData, index+1, elementData, index, numMoved);
+    // 将最后一个元素删除，帮助 GC
+    elementData[--size] = null; // clear to let GC do its work
+    // 返回旧值
+    return oldValue;
+}
 ```
+
+1. 检查索引是否越界。
+
+2. 获取指定索引位置的元素。
+
+3. 如果删除的不是最后一位，就将其他元素往前移动一位。
+
+4. 将最后一个位置设置为 null，方便 GC 回收。
+
+5. 返回删除的元素。
+
+!!! note
+
+    可以看到，ArrayList 删除元素的时候并没有缩容。
 
 #### remove(Object o)
 
-```Java title="源码"
-    /**
-     * Removes the first occurrence of the specified element from this list,
-     * if it is present.  If the list does not contain the element, it is
-     * unchanged.  More formally, removes the element with the lowest index
-     * <tt>i</tt> such that
-     * <tt>(o==null&nbsp;?&nbsp;get(i)==null&nbsp;:&nbsp;o.equals(get(i)))</tt>
-     * (if such an element exists).  Returns <tt>true</tt> if this list
-     * contained the specified element (or equivalently, if this list
-     * changed as a result of the call).
-     *
-     * @param o element to be removed from this list, if present
-     * @return <tt>true</tt> if this list contained the specified element
-     */
-    public boolean remove(Object o) {
-        if (o == null) {
-            for (int index = 0; index < size; index++)
-                if (elementData[index] == null) {
-                    fastRemove(index);
-                    return true;
-                }
-        } else {
-            for (int index = 0; index < size; index++)
-                if (o.equals(elementData[index])) {
-                    fastRemove(index);
-                    return true;
-                }
-        }
-        return false;
-    }
 
-        /*
-     * Private remove method that skips bounds checking and does not
-     * return the value removed.
-     */
-    private void fastRemove(int index) {
-        modCount++;
-        int numMoved = size - index - 1;
-        if (numMoved > 0)
-            System.arraycopy(elementData, index+1, elementData, index,
-                             numMoved);
-        elementData[--size] = null; // clear to let GC do its work
+删除指定 __元素值__ 的元素，时间复杂度为 `O(n)`
+
+```Java title="源码"
+/**
+ * Removes the first occurrence of the specified element from this list,
+ * if it is present.  If the list does not contain the element, it is
+ * unchanged.  More formally, removes the element with the lowest index
+ * <tt>i</tt> such that
+ * <tt>(o==null&nbsp;?&nbsp;get(i)==null&nbsp;:&nbsp;o.equals(get(i)))</tt>
+ * (if such an element exists).  Returns <tt>true</tt> if this list
+ * contained the specified element (or equivalently, if this list
+ * changed as a result of the call).
+ *
+ * @param o element to be removed from this list, if present
+ * @return <tt>true</tt> if this list contained the specified element
+ */
+public boolean remove(Object o) {
+    if (o == null) {
+        // 遍历整个数组，找到元素第一次出现的位置，并将其快速删除
+        for (int index = 0; index < size; index++)
+            // 如果要删除的元素为 null，则以 null 进行毕竟，所以用 ==
+            if (elementData[index] == null) {
+                fastRemove(index);
+                return true;
+            }
+    } else {
+        // 遍历整个数组，找到元素第一次出现的位置，并将其快速删除
+        for (int index = 0; index < size; index++)
+            // 如果要删除的元素部位 null，就进行比较，使用 equals() 方法。
+            if (o.equals(elementData[index])) {
+                fastRemove(index);
+                return true;
+            }
     }
+    return false;
+}
+
+/*
+ * Private remove method that skips bounds checking and does not
+ * return the value removed.
+ */
+private void fastRemove(int index) {
+    /* 少了一个越界的检查 */
+    modCount++;
+    // 如果 index 不是最后一位，就将 index 之后的元素往前挪一个位置
+    int numMoved = size - index - 1;
+    if (numMoved > 0)
+        System.arraycopy(elementData, index+1, elementData, index, numMoved);
+    // 将最后一个元素删除，帮助 GC
+    elementData[--size] = null; // clear to let GC do its work
+}
 ```
+
+1. 找到第一个等于指定元素值的元素。
+
+2. 快速删除。
+
+!!! note 
+
+    相比 `remove(int index)`，`fastRemove(int index)` 少了检查索引越界的操作，可见 JDK 将性能优化到极致。
 
 #### retainAll(Collection<?> c)
 
-```Java title="源码"
-    /**
-     * Retains only the elements in this list that are contained in the
-     * specified collection.  In other words, removes from this list all
-     * of its elements that are not contained in the specified collection.
-     *
-     * @param c collection containing elements to be retained in this list
-     * @return {@code true} if this list changed as a result of the call
-     * @throws ClassCastException if the class of an element of this list
-     *         is incompatible with the specified collection
-     * (<a href="Collection.html#optional-restrictions">optional</a>)
-     * @throws NullPointerException if this list contains a null element and the
-     *         specified collection does not permit null elements
-     * (<a href="Collection.html#optional-restrictions">optional</a>),
-     *         or if the specified collection is null
-     * @see Collection#contains(Object)
-     */
-    public boolean retainAll(Collection<?> c) {
-        Objects.requireNonNull(c);
-        return batchRemove(c, true);
-    }
+求两个集合的交集。
 
-        private boolean batchRemove(Collection<?> c, boolean complement) {
-        final Object[] elementData = this.elementData;
-        int r = 0, w = 0;
-        boolean modified = false;
-        try {
-            for (; r < size; r++)
-                if (c.contains(elementData[r]) == complement)
-                    elementData[w++] = elementData[r];
-        } finally {
-            // Preserve behavioral compatibility with AbstractCollection,
-            // even if c.contains() throws.
-            if (r != size) {
-                System.arraycopy(elementData, r,
-                                 elementData, w,
-                                 size - r);
-                w += size - r;
-            }
-            if (w != size) {
-                // clear to let GC do its work
-                for (int i = w; i < size; i++)
-                    elementData[i] = null;
-                modCount += size - w;
-                size = w;
-                modified = true;
-            }
+```Java title="源码"
+/**
+ * Retains only the elements in this list that are contained in the
+ * specified collection.  In other words, removes from this list all
+ * of its elements that are not contained in the specified collection.
+ *
+ * @param c collection containing elements to be retained in this list
+ * @return {@code true} if this list changed as a result of the call
+ * @throws ClassCastException if the class of an element of this list
+ *         is incompatible with the specified collection
+ * (<a href="Collection.html#optional-restrictions">optional</a>)
+ * @throws NullPointerException if this list contains a null element and the
+ *         specified collection does not permit null elements
+ * (<a href="Collection.html#optional-restrictions">optional</a>),
+ *         or if the specified collection is null
+ * @see Collection#contains(Object)
+ */
+public boolean retainAll(Collection<?> c) {
+    // 集合 c  不能为 null
+    Objects.requireNonNull(c);
+    // 调用批量方法，此时 complement 传入 true，表示删除不包含在 c 中的元素。
+    return batchRemove(c, true);
+}
+
+/**
+ * 批量删除元素
+ * @param c 待删除的集合
+ * @param complement true 表示删除 c 不包含的元素，false 表示删除 c 中包含的元素。
+ */
+private boolean batchRemove(Collection<?> c, boolean complement) {
+    
+    final Object[] elementData = this.elementData;
+
+    // 使用读写两个指针同时遍历数组
+    // 读指针每次自增 1，写指针放入元素的时候才加 1
+    // 这样不需要额外的空间，只需要在原有的数组上操作就可以了
+    int r = 0, w = 0;
+    boolean modified = false;
+    
+    try {
+        // 遍历整个数组，如果 c 中包含该元素，就把该元素放到写指针的位置（以 complement 为准）
+        for (; r < size; r++)
+            if (c.contains(elementData[r]) == complement)
+                elementData[w++] = elementData[r];
+    } finally {
+        // Preserve behavioral compatibility with AbstractCollection,
+        // even if c.contains() throws.
+        // 正常来说 r 最后是等于 size 的，除非 c.contains() 抛出了异常
+        if (r != size) {
+            // 如果 c.contains() 抛出了异常，就把未读的元素都拷贝到写写指针后
+            System.arraycopy(elementData, r, elementData, w, size - r);
+            w += size - r;
         }
-        return modified;
+        if (w != size) {
+            // clear to let GC do its work
+            // 将写指针之后的元素置为空，帮助 GC
+            for (int i = w; i < size; i++)
+                elementData[i] = null;
+            modCount += size - w;
+            // 新大小等于写指针的位置（因为每写一次写指针就加 1，所以新大小正好等于写指针的位置）
+            size = w;
+            modified = true;
+        }
     }
+    // 有修改返回 true
+    return modified;
+}
 ```
+
+1. 遍历 elementData 数组。
+
+2. 如果元素在 c 中，就把这个元素添加到 elementData 数组的 w 位置并将 w 位置往后移动一位。
+
+3. 遍历完之后，w 之前的元素都是两者共有的，w 之后（包含）的元素不是两者共有的。
+
+4. 将 w 之后（包含）的元素置为 null，方便 GC 回收。
 
 #### removeAll(Collection<?> c)
 
+求两个集合的单方向差集，只保留当前集合中不在 c 中的元素，不保留在 c 中不在当前集合中的元素。
 
 ```Java title="源码"
-    /**
-     * Removes from this list all of its elements that are contained in the
-     * specified collection.
-     *
-     * @param c collection containing elements to be removed from this list
-     * @return {@code true} if this list changed as a result of the call
-     * @throws ClassCastException if the class of an element of this list
-     *         is incompatible with the specified collection
-     * (<a href="Collection.html#optional-restrictions">optional</a>)
-     * @throws NullPointerException if this list contains a null element and the
-     *         specified collection does not permit null elements
-     * (<a href="Collection.html#optional-restrictions">optional</a>),
-     *         or if the specified collection is null
-     * @see Collection#contains(Object)
-     */
-    public boolean removeAll(Collection<?> c) {
-        Objects.requireNonNull(c);
-        return batchRemove(c, false);
-    }
-
+/**
+ * Removes from this list all of its elements that are contained in the
+ * specified collection.
+ *
+ * @param c collection containing elements to be removed from this list
+ * @return {@code true} if this list changed as a result of the call
+ * @throws ClassCastException if the class of an element of this list
+ *         is incompatible with the specified collection
+ * (<a href="Collection.html#optional-restrictions">optional</a>)
+ * @throws NullPointerException if this list contains a null element and the
+ *         specified collection does not permit null elements
+ * (<a href="Collection.html#optional-restrictions">optional</a>),
+ *         or if the specified collection is null
+ * @see Collection#contains(Object)
+ */
+public boolean removeAll(Collection<?> c) {
+    // 集合 c 不能为空
+    Objects.requireNonNull(c);
+    // 同样调用批量删除方法，这时 complement 传入 false，表示删除包含在 c 中的元素
+    return batchRemove(c, false);
+}
 ```
+与 `retainAll(Collection<?> c)` 方法类似，只是这里保留的是不在 c 中的元素。
 
 ## 总结
+
+1. ArrayList 内部使用数组存储元素，当数组长度不够时进行扩容，每次加一半的空间，ArrayList 不会进行缩容。
+
+2. ArrayList 支持随机访问，通过索引访问元素极快，时间复杂度为 O(1)。
+
+3. ArrayList 添加元素到尾部极快，平均时间复杂度为 O(1)。
+
+4. ArrayList 添加元素到中间比较慢，因为要搬移元素，平均时间复杂度为 O(n)。
+
+5. ArrayList 从尾部删除元素极快，时间复杂度为 O(1)l
+
+6. ArrayList 从中间删除元素比较慢，因为要搬移元素，平均时间复杂度为 O(n)。
+
+7. ArrayList 支持求并集，调用 addAll(Collection<? extends E> c) 方法即可。
+
+8. ArrayList 支持求交集，调用 retainAll(Collection<? extends E> c) 方法即可。
+
+9. ArrayList 支持求单向差集，调用 removeAll(Collection<? extends E> c) 方法即可。
