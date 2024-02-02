@@ -279,8 +279,8 @@ nav:
       # - "./CS/TOOLS/emacs.md"
       # - "./CS/TOOLS/github.md"
   - 编程语言: 
+    - "./CODING/coding.md" 
     - C/C++:
-      - "./CODING/C-C++/summary.md"
       - C:
         - "./CODING/C-C++/C/get-stared.md"
       - C++:
@@ -294,6 +294,10 @@ nav:
         - "./CODING/JAVA/BASIC/pass-by-value.md"
       - 集合:
         - "./CODING/JAVA/COLLECTION/arraylist-yuanma.md"
+        - "./CODING/JAVA/COLLECTION/copyonwritearraylist-yuanma.md"
+        - "./CODING/JAVA/COLLECTION/hashmap-yuanma.md"
+      - 原子类:
+        - "./CODING/JAVA/ATOMIC/unsafe.md"
       - IO:
         - "./CODING/JAVA/IO/java-io-stream.md"
         - "./CODING/JAVA/IO/java-bio-nio-aio.md"

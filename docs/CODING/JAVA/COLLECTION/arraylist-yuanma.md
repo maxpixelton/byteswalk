@@ -22,45 +22,24 @@
 
 ### 属性
 
-#### DEFAULT_CAPACITY
-
 ```Java title="源码"
 /**
  * Default initial capacity.
  */
 private static final int DEFAULT_CAPACITY = 10;
-```
 
-默认容量为 10，也就是通过 `new ArrayList()` 创建时的默认容量。
-
-#### EMPTY_ELEMENTDATA
-
-```Java title="源码"
 /**
  * Shared empty array instance used for empty instances.
  */
 private static final Object[] EMPTY_ELEMENTDATA = {};
-```
-空数组，当传入的容量为 0 时使用，即通过 `new ArrayList(0)` 创建时用的是这个空数组
 
-#### DEFAULTCAPACITY_EMPTY_ELEMENTDATA
-
-```Java title="源码"
 /**
  * Shared empty array instance used for default sized empty instances. We
  * distinguish this from EMPTY_ELEMENTDATA to know how much to inflate when
  * first element is added.
  */
 private static final Object[] DEFAULTCAPACITY_EMPTY_ELEMENTDATA = {};
-```
 
-同样也是空数组，是通过 `new ArrayList()` 创建时用的是这个空数组，与 `EMPTY_ELEMENTDATA` 的区别是。
-在<font color=red>添加第一个元素时使用这个空数组会初始化为 DEFAUT_CAPACITY=10 个元素</font>
-
-
-#### elementData
-
-```Java title="源码"
 /**
  * The array buffer into which the elements of the ArrayList are stored.
  * The capacity of the ArrayList is the length of this array buffer. Any
@@ -68,12 +47,25 @@ private static final Object[] DEFAULTCAPACITY_EMPTY_ELEMENTDATA = {};
  * will be expanded to DEFAULT_CAPACITY when the first element is added.
  */
 transient Object[] elementData; // non-private to simplify nested class access
+
+/**
+ * The size of the ArrayList (the number of elements it contains).
+ * ArrayList 包含的元素个数
+ * @serial
+ */
+private int size;
 ```
-真正存放元素的地方，使用 `transient` 是为了不序列化这个字段。
 
-没有用 `private` 修饰，后面注释写的是 “为了简化嵌套类的访问”，但是实际上加了 `private` 嵌套类一样可以访问。
+- `DEFAULT_CAPADATA`: 默认容量为 10，也就是通过 `new ArrayList()` 创建时的默认容量。
 
-!!! info
+- `EMPTY_ELEMENTDATA`: 空数组，当传入的容量为 0 时使用，即通过 `new ArrayList(0)` 创建时用的是这个空数组
+
+- `DEFAULTCAPACITY_EMPTY_ELEMENTDATA`同样也是空数组，是通过 `new ArrayList()` 创建时用的是这个空数组，与 `EMPTY_ELEMENTDATA` 的区别是。
+在<font color=red>添加第一个元素时使用这个空数组会初始化为 DEFAUT_CAPACITY=10 个元素</font>
+
+- `elementData`: 真正存放元素的地方，使用 `transient` 是为了不序列化这个字段。没有用 `private` 修饰，后面注释写的是 “为了简化嵌套类的访问”，但是实际上加了 `private` 嵌套类一样可以访问。
+
+??? info
 
     private 表示类私有的属性，只要是在这个类内部都可以访问，嵌套类或者内部类也是在类内部，所以也可以访问类的私有属性。
 
@@ -158,18 +150,7 @@ transient Object[] elementData; // non-private to simplify nested class access
 
     <font color=red> `elementData` 定义为 `transient` 的优势是 __根据 `size` 序列化真实的元素，而不是根据数组的长度序列化元素，减少了空间占用__ 。</font>
 
-#### size
-
-```Java title="源码"
-/**
- * The size of the ArrayList (the number of elements it contains).
- * ArrayList 包含的元素个数
- * @serial
- */
-private int size;
-```
-
-真正存储元素的个数，而不是 `elementData` 数组的长度。
+- `size`: 真正存储元素的个数，而不是 `elementData` 数组的长度。
 
 ??? tip "为什么用 size 存储元素的而是，而不是 elementData 数组的长度 ？"
 
