@@ -281,6 +281,7 @@ public static void main(String[] args) throws InterruptedException {
 ```
 
 输入结果如下图所示：
+![](https://shichuan-hao.github.io/images/static/java/java-unsafe-counter.png){width="373" hight="324"}
 
 ## park/unpark
 
