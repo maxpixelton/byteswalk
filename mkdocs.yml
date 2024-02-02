@@ -288,8 +288,6 @@ nav:
         - "./CODING/C-C++/C++/syntax.md"
         - "./CODING/C-C++/C++/poniter.md"
     - Java:
-      # - "./CODING/JAVA/basic.md"
-      # - "./CODING/JAVA/collection.md"
       - 基础:
         - "./CODING/JAVA/BASIC/pass-by-value.md"
       - 集合:
