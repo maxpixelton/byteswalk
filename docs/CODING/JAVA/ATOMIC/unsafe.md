@@ -314,7 +314,7 @@ JVM 在上下文切换的时候使用了 Unsafe 中的两个非常牛逼的方�
 
     1. 通过构造方法实例化一个类。
     
-    2. 通过Class实例化一个类。
+    2. 通过 Class 实例化一个类。
     
     3. 通过反射实例化一个类；
     
@@ -322,70 +322,69 @@ JVM 在上下文切换的时候使用了 Unsafe 中的两个非常牛逼的方�
     
     5. 通过反序列化实例化一个类；
     
-    6. 通过Unsafe实例化一个类；
+    6. 通过 Unsafe 实例化一个类；
 
     ```java
-    public class InstantialTest {
+    public class InstantiatedTest {
 
-        private static Unsafe unsafe;
-        
+        private static final Unsafe unsafe;
+
         static {
             try {
                 Field f = Unsafe.class.getDeclaredField("theUnsafe");
                 f.setAccessible(true);
                 unsafe = (Unsafe) f.get(null);
-            } catch (NoSuchFieldException e) {
-                e.printStackTrace();
-            } catch (IllegalAccessException e) {
-                e.printStackTrace();
+            } catch (NoSuchFieldException | IllegalAccessException e) {
+                throw new RuntimeException(e);
             }
         }
-        
-        public static void main(String[] args) throws Exception {
+
+        public static void main(String[] args) throws
+                Exception {
             // 1. 构造方法
             User user1 = new User();
-            // 2. Class，里面实际也是反射
+
+            // 2. Class，里面实际上也是反射
             User user2 = User.class.newInstance();
+
             // 3. 反射
             User user3 = User.class.getConstructor().newInstance();
+
             // 4. 克隆
-            User user4 = (User) user1.clone();
+            User user4 = user1.clone();
+
             // 5. 反序列化
-            User user5 = unserialize(user1);
+            User user5 = deserialize(user1);
+
             // 6. Unsafe
             User user6 = (User) unsafe.allocateInstance(User.class);
 
-            System.out.println(user1.age);
-            System.out.println(user2.age);
-            System.out.println(user3.age);
-            System.out.println(user4.age);
-            System.out.println(user5.age);
-            System.out.println(user6.age);
+            System.out.println("user1: " + user1.getAge());
+            System.out.println("user2: " + user2.getAge());
+            System.out.println("user3: " + user3.getAge());
+            System.out.println("user4: " + user4.getAge());
+            System.out.println("user5: " + user5.getAge());
+            System.out.println("user6: " + user6.getAge());
         }
 
-        private static User unserialize(User user1) throws Exception {
-            ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("D://object.txt"));
-            oos.writeObject(user1);
+        public static User deserialize(User user) 
+            throws IOException, ClassNotFoundException {
+            Path path = Paths.get("object.txt");
+            ObjectOutputStream oos = new ObjectOutputStream(Files.newOutputStream(path));
+            oos.writeObject(user);
             oos.close();
 
-            ObjectInputStream ois = new ObjectInputStream(new FileInputStream("D://object.txt"));
+            ObjectInputStream ois = new ObjectInputStream(Files.newInputStream(path));
             // 反序列化
             User user5 = (User) ois.readObject();
             ois.close();
             return user5;
         }
-
-        static class User implements Cloneable, Serializable {
-            private int age;
-
-            public User() {
-                this.age = 10;
-            }
-
-            @Override
-            protected Object clone() throws CloneNotSupportedException {
-                return super.clone();
-            }
-        }
     }
     ```
+
+    输出结果如下：
+
+    ![InstantiatedTest 的输出结果](https://shichuan-hao.github.io/images/static/java/java-instantiatedclass-output.png)
+
+    <font color=red>最后一种通过 Unsafe 实例化的类，里面的 age 的值是 0，而不是 10！这是因为调用 Unsafe 的 allocateInstance() 方法只会给对象分配内存，并不会初始化对象中的属性，所以 int 类型的默认值就是 0.</font>
