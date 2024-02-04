@@ -216,12 +216,3 @@ public static void main(String[] args) {
 2. ABA 的解决一般是使用版本号来控制，并保证数据结构使用元素值来传递，且每次添加元素都新建节点承载元素值。
 
 3. AtomicStampeReference 内部使用 Pair 来存储元素值以及版本号。
-
-
-
-
-
-
-
-
-
