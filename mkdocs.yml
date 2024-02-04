@@ -32,7 +32,7 @@ theme:
     - content.tooltips
     # - header.autohide
     # - navigation.expand # 启用扩展后，左侧边栏将默认展开所有可折叠的子部分，因此用户不需要手动打开子部分
-    - navigation.instant
+    # - navigation.instant
     - navigation.footer
     - navigation.indexes # 章节索引页，文档可以直接附加到章节，这对于提供概述页面超级有用
     # - navigation.instant
@@ -297,6 +297,8 @@ nav:
         - "./CODING/JAVA/COLLECTION/hashmap-yuanma.md"
       - 原子类:
         - "./CODING/JAVA/ATOMIC/unsafe.md"
+        - "./CODING/JAVA/ATOMIC/atomicinterger-yuanma.md"
+        - "./CODING/JAVA/ATOMIC/atomicstampedreference-yuanma.md"
       - IO:
         - "./CODING/JAVA/IO/java-io-stream.md"
         - "./CODING/JAVA/IO/java-bio-nio-aio.md"
