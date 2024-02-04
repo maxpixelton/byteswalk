@@ -32,6 +32,7 @@ theme:
     - content.tooltips
     # - header.autohide
     # - navigation.expand # 启用扩展后，左侧边栏将默认展开所有可折叠的子部分，因此用户不需要手动打开子部分
+    - navigation.instant
     - navigation.footer
     - navigation.indexes # 章节索引页，文档可以直接附加到章节，这对于提供概述页面超级有用
     # - navigation.instant
@@ -54,21 +55,21 @@ theme:
     - media: "(prefers-color-scheme)"
       scheme: slate
       primary: black
-      accent: light bule
+      accent: indigo  # 强调色，表示可以交互的元素，比如悬停链接、按钮和滚动条
       toggle:
         icon: material/link
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: indigo
-      accent: light bule
+      accent: indigo
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: black
-      accent: light bule
+      accent: indigo
       toggle:
         icon: material/toggle-switch-off
         name: Switch to system preference
@@ -112,37 +113,37 @@ plugins:
           name: 简体中文
           build: true
           # site_name: Infinity
-        - locale: en
-          name: English
-          build: true
-          # 注意，导航栏中所有需要翻译的标题和字幕都可以放在这里，但不要缩进(note that all titles and subtitles in the navigation bar that need to be translated can be put here, but with no indentation)
-          nav_translations:
-            首页: HOME
-            关于: ABOUT
-            赞助: SPONSORSHIP
-            数学: MATH
-            计算机科学: Computer Science
-            编程: CODING 
-            路线图: ROADMAP
-            云: CLOUD
-            云技术: CLOUD-TECH
-            上手实践: HANDS-ON
-            拥有一台服务器: Have A Server
-            服务器配置: Server Configuration
-            获得一个域名: Get A Domain Name
-            可视化: VISUALIZATION
-            开发: DEV
-            开发环境: DEVENV
-            远程控制: REMOTE-CONTROL
-            云同步: CLOUD-SYNC
-            前端: FRONT-END
-            后端: BACK-END
-            项目: PROJECT
-            博客: BLOG
-            字节漫步: Byteswalk
-            工具和安装: TOOLSETUP
-            深入理解计算机系统: CSAPP
-            必须工具: Productivity Toolkit
+        # - locale: en
+        #   name: English
+        #   build: true
+        #   # 注意，导航栏中所有需要翻译的标题和字幕都可以放在这里，但不要缩进(note that all titles and subtitles in the navigation bar that need to be translated can be put here, but with no indentation)
+        #   nav_translations:
+        #     首页: HOME
+        #     关于: ABOUT
+        #     赞助: SPONSORSHIP
+        #     数学: MATH
+        #     计算机科学: Computer Science
+        #     编程: CODING 
+        #     路线图: ROADMAP
+        #     云: CLOUD
+        #     云技术: CLOUD-TECH
+        #     上手实践: HANDS-ON
+        #     拥有一台服务器: Have A Server
+        #     服务器配置: Server Configuration
+        #     获得一个域名: Get A Domain Name
+        #     可视化: VISUALIZATION
+        #     开发: DEV
+        #     开发环境: DEVENV
+        #     远程控制: REMOTE-CONTROL
+        #     云同步: CLOUD-SYNC
+        #     前端: FRONT-END
+        #     后端: BACK-END
+        #     项目: PROJECT
+        #     博客: BLOG
+        #     字节漫步: Byteswalk
+        #     工具和安装: TOOLSETUP
+        #     深入理解计算机系统: CSAPP
+        #     必须工具: Productivity Toolkit
 # # Hooks
 # hooks:
 #   - material/overrides/hooks/shortcodes.py
