@@ -85,6 +85,20 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/C-C%2B%2B/C%2B%2B/syntax/"/>
     </url>
     <url>
+        <loc>https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/ATOMIC/atomicinterger-yuanma/</loc>
+        <lastmod>2024-02-04</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/ATOMIC/atomicinterger-yuanma/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/ATOMIC/atomicinterger-yuanma/"/>
+    </url>
+    <url>
+        <loc>https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/ATOMIC/atomicstampedreference-yuanma/</loc>
+        <lastmod>2024-02-04</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/ATOMIC/atomicstampedreference-yuanma/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/ATOMIC/atomicstampedreference-yuanma/"/>
+    </url>
+    <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/ATOMIC/unsafe/</loc>
         <lastmod>2024-02-04</lastmod>
         <changefreq>daily</changefreq>
@@ -405,6 +419,20 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/C-C%2B%2B/C%2B%2B/syntax/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/C-C%2B%2B/C%2B%2B/syntax/"/>
+    </url>
+    <url>
+        <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/ATOMIC/atomicinterger-yuanma/</loc>
+        <lastmod>2024-02-04</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/ATOMIC/atomicinterger-yuanma/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/ATOMIC/atomicinterger-yuanma/"/>
+    </url>
+    <url>
+        <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/ATOMIC/atomicstampedreference-yuanma/</loc>
+        <lastmod>2024-02-04</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/ATOMIC/atomicstampedreference-yuanma/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/ATOMIC/atomicstampedreference-yuanma/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/ATOMIC/unsafe/</loc>
