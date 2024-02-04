@@ -318,14 +318,13 @@ nav:
       - JAVASCRIPT: "./CODING/WEB/JS/js.md"
   - 软件工程:
     - "./SOFTWARE/about.md"
-  
-  # - 云: 
-  #     - "./CLOUD/cloud.md"
-  #     - 云技术: "./CLOUD/CLOUD-TECH/cloud-tech.md"
-  #     - 上手实战:
-  #         - 拥有一台服务器: "./CLOUD/HANDS-ON/001-HAVE-A-SERVER/have-a-server.md"
-  #         - 服务器配置: "./CLOUD/HANDS-ON/002-SERVER-CONFIG/server-config.md"
-  #         - 获得一个域名: "./CLOUD/HANDS-ON/003-DOMAIN-NAME/domain-name.md"
+  - 云: 
+      - "./CLOUD/cloud.md"
+      - 云技术: "./CLOUD/CLOUD-TECH/cloud-tech.md"
+      - 上手实战:
+          - 拥有一台服务器: "./CLOUD/HANDS-ON/001-HAVE-A-SERVER/have-a-server.md"
+          - 服务器配置: "./CLOUD/HANDS-ON/002-SERVER-CONFIG/server-config.md"
+          - 获得一个域名: "./CLOUD/HANDS-ON/003-DOMAIN-NAME/domain-name.md"
   - 项目: 
       - "./PROJECT/TECH-BLOG/mkdocs_and_material.md"
       - "./PROJECT/文字和排版.md"
