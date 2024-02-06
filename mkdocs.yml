@@ -323,7 +323,11 @@ nav:
     - "./SOFTWARE/about.md"
   - 云: 
       - "./CLOUD/cloud.md"
-      - 云技术: "./CLOUD/CLOUD-TECH/cloud-tech.md"
+      - "./CLOUD/quick-install-docker-k8s.md"
+      - "./CLOUD/get-started-docker.md"
+      - "./CLOUD/docker-images.md"
+      - "./CLOUD/docker-dockerfile.md"
+      - "./CLOUD/docker-network-store.md"
       - 上手实战:
           - 拥有一台服务器: "./CLOUD/HANDS-ON/001-HAVE-A-SERVER/have-a-server.md"
           - 服务器配置: "./CLOUD/HANDS-ON/002-SERVER-CONFIG/server-config.md"
