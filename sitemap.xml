@@ -2,734 +2,734 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CLOUD/cloud/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CLOUD/cloud/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CLOUD/cloud/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CLOUD/docker-dockerfile/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CLOUD/docker-dockerfile/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CLOUD/docker-dockerfile/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CLOUD/docker-images/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CLOUD/docker-images/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CLOUD/docker-images/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CLOUD/docker-network-store/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CLOUD/docker-network-store/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CLOUD/docker-network-store/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CLOUD/get-started-docker/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CLOUD/get-started-docker/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CLOUD/get-started-docker/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CLOUD/quick-install-docker-k8s/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CLOUD/quick-install-docker-k8s/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CLOUD/quick-install-docker-k8s/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CLOUD/HANDS-ON/001-HAVE-A-SERVER/have-a-server/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CLOUD/HANDS-ON/001-HAVE-A-SERVER/have-a-server/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CLOUD/HANDS-ON/001-HAVE-A-SERVER/have-a-server/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CLOUD/HANDS-ON/002-SERVER-CONFIG/server-config/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CLOUD/HANDS-ON/002-SERVER-CONFIG/server-config/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CLOUD/HANDS-ON/002-SERVER-CONFIG/server-config/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CLOUD/HANDS-ON/003-DOMAIN-NAME/domain-name/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CLOUD/HANDS-ON/003-DOMAIN-NAME/domain-name/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CLOUD/HANDS-ON/003-DOMAIN-NAME/domain-name/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CODING/coding/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/coding/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/coding/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CODING/C-C%2B%2B/summary/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/C-C%2B%2B/summary/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/C-C%2B%2B/summary/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CODING/C-C%2B%2B/C/get-stared/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/C-C%2B%2B/C/get-stared/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/C-C%2B%2B/C/get-stared/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CODING/C-C%2B%2B/C%2B%2B/get-started/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/C-C%2B%2B/C%2B%2B/get-started/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/C-C%2B%2B/C%2B%2B/get-started/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CODING/C-C%2B%2B/C%2B%2B/poniter/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/C-C%2B%2B/C%2B%2B/poniter/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/C-C%2B%2B/C%2B%2B/poniter/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CODING/C-C%2B%2B/C%2B%2B/syntax/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/C-C%2B%2B/C%2B%2B/syntax/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/C-C%2B%2B/C%2B%2B/syntax/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/ATOMIC/atomicinterger-yuanma/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/ATOMIC/atomicinterger-yuanma/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/ATOMIC/atomicinterger-yuanma/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/ATOMIC/atomicstampedreference-yuanma/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/ATOMIC/atomicstampedreference-yuanma/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/ATOMIC/atomicstampedreference-yuanma/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/ATOMIC/unsafe/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/ATOMIC/unsafe/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/ATOMIC/unsafe/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/BASIC/pass-by-value/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/BASIC/pass-by-value/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/BASIC/pass-by-value/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/COLLECTION/arraylist-yuanma/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/COLLECTION/arraylist-yuanma/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/COLLECTION/arraylist-yuanma/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/COLLECTION/copyonwritearraylist-yuanma/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/COLLECTION/copyonwritearraylist-yuanma/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/COLLECTION/copyonwritearraylist-yuanma/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/COLLECTION/hashmap-yuanma/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/COLLECTION/hashmap-yuanma/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/COLLECTION/hashmap-yuanma/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/FEATURE/new-feature/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/FEATURE/new-feature/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/FEATURE/new-feature/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/IO/java-bio-nio-aio/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/IO/java-bio-nio-aio/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/IO/java-bio-nio-aio/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/IO/java-io-stream/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/IO/java-io-stream/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/IO/java-io-stream/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CODING/PYTHON/basic/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/PYTHON/basic/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/PYTHON/basic/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CODING/PYTHON/collection/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/PYTHON/collection/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/PYTHON/collection/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CODING/R/basic/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/R/basic/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/R/basic/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CODING/R/collection/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/R/collection/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/R/collection/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CODING/WEB/design-and-accessibility/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/WEB/design-and-accessibility/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/WEB/design-and-accessibility/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CODING/WEB/get-started-web/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/WEB/get-started-web/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/WEB/get-started-web/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CODING/WEB/tools-and-setup/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/WEB/tools-and-setup/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/WEB/tools-and-setup/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CODING/WEB/web-mechanism/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/WEB/web-mechanism/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/WEB/web-mechanism/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CODING/WEB/web/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/WEB/web/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/WEB/web/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CODING/WEB/CSS/css/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/WEB/CSS/css/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/WEB/CSS/css/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CODING/WEB/HTML/html/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/WEB/HTML/html/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/WEB/HTML/html/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CODING/WEB/JS/js/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/WEB/JS/js/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/WEB/JS/js/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CS/csapp/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CS/csapp/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CS/csapp/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CS/preamble/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CS/preamble/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CS/preamble/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CS/DSA/A/two-pointers/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CS/DSA/A/two-pointers/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CS/DSA/A/two-pointers/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CS/TOOLS/scoop/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CS/TOOLS/scoop/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CS/TOOLS/scoop/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/CS/TOOLS/usefull-tools/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CS/TOOLS/usefull-tools/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CS/TOOLS/usefull-tools/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/HOME/about/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/HOME/about/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/HOME/about/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/HOME/sponsorship/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/HOME/sponsorship/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/HOME/sponsorship/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/MATH/resource/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/MATH/resource/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/MATH/resource/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/PROJECT/gemoij_db/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/PROJECT/gemoij_db/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/PROJECT/gemoij_db/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/PROJECT/%E6%96%87%E5%AD%97%E5%92%8C%E6%8E%92%E7%89%88/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/PROJECT/%E6%96%87%E5%AD%97%E5%92%8C%E6%8E%92%E7%89%88/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/PROJECT/%E6%96%87%E5%AD%97%E5%92%8C%E6%8E%92%E7%89%88/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/PROJECT/TECH-BLOG/mkdocs_and_material/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/PROJECT/TECH-BLOG/mkdocs_and_material/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/PROJECT/TECH-BLOG/mkdocs_and_material/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/ReferenceCode/browser-support/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/ReferenceCode/browser-support/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/ReferenceCode/browser-support/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/ReferenceCode/reference/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/ReferenceCode/reference/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/ReferenceCode/reference/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/SOFTWARE/about/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/SOFTWARE/about/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/SOFTWARE/about/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CLOUD/cloud/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CLOUD/cloud/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CLOUD/cloud/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CLOUD/docker-dockerfile/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CLOUD/docker-dockerfile/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CLOUD/docker-dockerfile/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CLOUD/docker-images/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CLOUD/docker-images/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CLOUD/docker-images/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CLOUD/docker-network-store/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CLOUD/docker-network-store/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CLOUD/docker-network-store/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CLOUD/get-started-docker/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CLOUD/get-started-docker/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CLOUD/get-started-docker/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CLOUD/quick-install-docker-k8s/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CLOUD/quick-install-docker-k8s/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CLOUD/quick-install-docker-k8s/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CLOUD/HANDS-ON/001-HAVE-A-SERVER/have-a-server/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CLOUD/HANDS-ON/001-HAVE-A-SERVER/have-a-server/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CLOUD/HANDS-ON/001-HAVE-A-SERVER/have-a-server/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CLOUD/HANDS-ON/002-SERVER-CONFIG/server-config/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CLOUD/HANDS-ON/002-SERVER-CONFIG/server-config/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CLOUD/HANDS-ON/002-SERVER-CONFIG/server-config/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CLOUD/HANDS-ON/003-DOMAIN-NAME/domain-name/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CLOUD/HANDS-ON/003-DOMAIN-NAME/domain-name/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CLOUD/HANDS-ON/003-DOMAIN-NAME/domain-name/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/coding/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/coding/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/coding/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/C-C%2B%2B/summary/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/C-C%2B%2B/summary/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/C-C%2B%2B/summary/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/C-C%2B%2B/C/get-stared/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/C-C%2B%2B/C/get-stared/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/C-C%2B%2B/C/get-stared/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/C-C%2B%2B/C%2B%2B/get-started/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/C-C%2B%2B/C%2B%2B/get-started/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/C-C%2B%2B/C%2B%2B/get-started/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/C-C%2B%2B/C%2B%2B/poniter/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/C-C%2B%2B/C%2B%2B/poniter/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/C-C%2B%2B/C%2B%2B/poniter/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/C-C%2B%2B/C%2B%2B/syntax/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/C-C%2B%2B/C%2B%2B/syntax/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/C-C%2B%2B/C%2B%2B/syntax/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/ATOMIC/atomicinterger-yuanma/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/ATOMIC/atomicinterger-yuanma/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/ATOMIC/atomicinterger-yuanma/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/ATOMIC/atomicstampedreference-yuanma/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/ATOMIC/atomicstampedreference-yuanma/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/ATOMIC/atomicstampedreference-yuanma/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/ATOMIC/unsafe/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/ATOMIC/unsafe/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/ATOMIC/unsafe/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/BASIC/pass-by-value/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/BASIC/pass-by-value/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/BASIC/pass-by-value/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/COLLECTION/arraylist-yuanma/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/COLLECTION/arraylist-yuanma/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/COLLECTION/arraylist-yuanma/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/COLLECTION/copyonwritearraylist-yuanma/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/COLLECTION/copyonwritearraylist-yuanma/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/COLLECTION/copyonwritearraylist-yuanma/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/COLLECTION/hashmap-yuanma/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/COLLECTION/hashmap-yuanma/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/COLLECTION/hashmap-yuanma/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/FEATURE/new-feature/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/FEATURE/new-feature/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/FEATURE/new-feature/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/IO/java-bio-nio-aio/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/IO/java-bio-nio-aio/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/IO/java-bio-nio-aio/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/IO/java-io-stream/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/JAVA/IO/java-io-stream/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/JAVA/IO/java-io-stream/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/PYTHON/basic/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/PYTHON/basic/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/PYTHON/basic/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/PYTHON/collection/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/PYTHON/collection/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/PYTHON/collection/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/R/basic/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/R/basic/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/R/basic/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/R/collection/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/R/collection/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/R/collection/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/WEB/design-and-accessibility/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/WEB/design-and-accessibility/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/WEB/design-and-accessibility/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/WEB/get-started-web/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/WEB/get-started-web/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/WEB/get-started-web/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/WEB/tools-and-setup/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/WEB/tools-and-setup/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/WEB/tools-and-setup/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/WEB/web-mechanism/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/WEB/web-mechanism/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/WEB/web-mechanism/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/WEB/web/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/WEB/web/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/WEB/web/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/WEB/CSS/css/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/WEB/CSS/css/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/WEB/CSS/css/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/WEB/HTML/html/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/WEB/HTML/html/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/WEB/HTML/html/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CODING/WEB/JS/js/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CODING/WEB/JS/js/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CODING/WEB/JS/js/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CS/csapp/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CS/csapp/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CS/csapp/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CS/preamble/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CS/preamble/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CS/preamble/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CS/DSA/A/two-pointers/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CS/DSA/A/two-pointers/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CS/DSA/A/two-pointers/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CS/TOOLS/scoop/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CS/TOOLS/scoop/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CS/TOOLS/scoop/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/CS/TOOLS/usefull-tools/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/CS/TOOLS/usefull-tools/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/CS/TOOLS/usefull-tools/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/HOME/about/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/HOME/about/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/HOME/about/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/HOME/sponsorship/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/HOME/sponsorship/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/HOME/sponsorship/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/MATH/resource/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/MATH/resource/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/MATH/resource/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/PROJECT/gemoij_db/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/PROJECT/gemoij_db/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/PROJECT/gemoij_db/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/PROJECT/project/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/PROJECT/project/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/PROJECT/%E6%96%87%E5%AD%97%E5%92%8C%E6%8E%92%E7%89%88/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/PROJECT/%E6%96%87%E5%AD%97%E5%92%8C%E6%8E%92%E7%89%88/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/PROJECT/%E6%96%87%E5%AD%97%E5%92%8C%E6%8E%92%E7%89%88/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/PROJECT/TECH-BLOG/mkdocs_and_material/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/PROJECT/TECH-BLOG/mkdocs_and_material/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/PROJECT/TECH-BLOG/mkdocs_and_material/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/ReferenceCode/browser-support/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/ReferenceCode/browser-support/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/ReferenceCode/browser-support/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/ReferenceCode/reference/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/ReferenceCode/reference/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/ReferenceCode/reference/"/>
     </url>
     <url>
         <loc>https://Shichuan-hao.github.io/byteswalk/en/SOFTWARE/about/</loc>
-        <lastmod>2024-02-07</lastmod>
+        <lastmod>2024-02-19</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://Shichuan-hao.github.io/byteswalk/en/SOFTWARE/about/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://Shichuan-hao.github.io/byteswalk/SOFTWARE/about/"/>
