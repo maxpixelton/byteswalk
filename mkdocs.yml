@@ -205,7 +205,12 @@ extra:
   #     make our documentation better.
 
 # Extra Configuration（额外配置）
-# extra_javascript:
+extra_javascript:
+  - ./javascripts/katex.js
+  - ./javascripts/katex.min.js
+  - ./javascripts/auto-render.min.js
+extra_css:
+  - ./stylesheets/katex.min.css
   # - https://giscus.app/client.js
   # - /docs/CODING/PYTHON/Book1_Python-For-Beginners_编程不难.pdf
 
@@ -267,6 +272,7 @@ nav:
     - 赞助: "./HOME/sponsorship.md"
   - 数学:
     - "./MATH/resource.md"
+    - "./MATH/calculus.md"
   - 计算机科学: 
     - "./CS/preamble.md" 
     - "./CS/csapp.md"
