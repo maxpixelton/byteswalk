@@ -318,13 +318,6 @@ nav:
     #   - "./CODING/R/collection.md"
     - Web: 
       - "./CODING/WEB/web.md"
-      - "./CODING/WEB/get-started-web.md"
-      - "./CODING/WEB/web-mechanism.md"
-      - "./CODING/WEB/tools-and-setup.md"
-      - "./CODING/WEB/design-and-accessibility.md"
-      - HTML: "./CODING/WEB/HTML/html.md"
-      - CSS: "./CODING/WEB/CSS/css.md"
-      - JAVASCRIPT: "./CODING/WEB/JS/js.md"
   - 软件工程:
     - "./SOFTWARE/about.md"
   - 云: 

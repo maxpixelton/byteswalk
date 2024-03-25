@@ -328,13 +328,125 @@ Docker 引擎是一种基于客户端-服务器（ C/S 架构）模型的应用�
 
 1. `docker inspect`
 
+    用来获取 Docker 对象（容器、镜像、网络）的详细信息。通过使用这个命令，我们可以查看有关容器、镜像、网络等对象的所有属性信息，例如容器的 IP 地址、端口映射、挂载的卷等。基本语法是：`docker inspect [OPTIONS] OBJECT [OBJECT...]`。
+
+    其中，[OPTIONS] 是可选的命令选项，OBJECT 是要检查的 Docker 对象的 ID 或名称，可以同时指定多个 Docker 对象。
+
+    常用选项包括：
+
+    - `-f`、`--format`：设置输出格式
+
+    - `--type`：指定要检查的 Docker 对象类型（container、image、network 等）
+
+    - `--size`：显示与 Docker 对象相关联的数据卷的大小信息
+
+    例如，要获取名为 mycontainer 的容器的详细信息，命令如下：
+    
+    ```shell
+    # 返回一个 JSON 格式的输出，包含有关 mycontainer 容器的所有详细信息
+    docker inspect mycontainer
+    ```
+
+    如果要只显示容器的 IP 地址, 可以使用 -f 选项设置输出格式, 如下:
+
+    ```shell
+    # 这里只显示容器的 IP 地址
+    docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mycontainer
+    ```
+
+    !!! tip
+
+    需要注意的是, docker inpest 命令返回的信息非常详细, 但也非常复杂, 如果只需要查看特定属性的值, 建议使用 grep 等命令过来输出.
+
+
 2. `docker logs`
+
+    该命令用来查看容器的日志输出. 当容器运行时, 它会在标准输出和标准错误输出中生产日志消息, 从而了解容器的运行状态和任何错误或异常情况.
+
+    ```shell
+    // 查看正在运行的容器的输出
+    docker logs <container_id_or_name>
+
+    // 查看容器的最后 10 条日志消息
+    docker logs --tail 10 <container_id_or_name>
+
+    // 实时查看容器的日志输出
+    docker logs --follow <container_id_or_name>
+    ```
+
+    
 
 ### 生成类
 
 1. `docker save` 与 `docker load`
 
+    `docker save` 是一个命令行工具，用来将 Docker 镜像文件保存为 .tar 文件。通过该命令，我们可以将镜像保存到本地或远程服务器并与其他人共享。
+
+    `docker save` 命令的语法：`docker save [OPTIONS] IMAGE [IMAGE...]`
+
+    其中，`[OPTIONS]` 表示可选参数，`IMAGE` 表示要保存的镜像名称。
+
+    常用的选项有：
+    - `-o`, `--output`：指定输出文件名，默认 `STDOUT`。
+
+    - `-q`, `--quiet`：仅输出 SHA256 哈希值，不显示进度信息。
+
+    - `--tag`：指定要保存的镜像的标签名称。
+
+    比如，将名为 "myimage:latest" 的镜像保存为文件 "myimage.tar"
+
+    ```shell
+    docker save -o myimage.tar myimage:latest
+    ```
+
+    相反的，使用 `docker load` 命令将 .tar 文件加载回 Docker 镜像库中
+
+    ```shell
+    docker load -i myimage.tar
+    ```
+
+    在使用 `dokcer tag` 将加载的镜像改为指定的 tag。
+   
+
 2. `docker build`
+
+    `docker build` 也是一个命令行工具，根据 Dockerfile 构建一个新的 Docker 镜像。Docker 是一个文本文件，它包含一些列的指令和参数，用来定义如何构建 Docker 镜像。使用 `docker build` 命令可以自动化构建和管理 Docker 镜像的过程：
+
+    `docker build` 命令的语法是：`docker build [OPTIONS] PATH | URL | -`
+
+    其中，`[OPTIONS]` 表示可选参数，`PATH`、`UTL` 或 `-` 表示 Dockerfile 所在的路径，通常情况下，我们可以在 Dockerfile 所在的目录中执行该命令：
+
+    下面是一些常用的选项：
+
+    - `-f`、`-file`：指定 Dockerfile 的文件名，默认为 `Dockerfile`。
+
+    - `-t`、`--tag`：为构建的镜像指定一个名称和标签。
+
+    - `--build-arg`：设置构建参数，格式为 key=value。
+
+    - `--no-cache`：不使用换成，强制重新构建 Docker 镜像。
+
+    例如，假设有一个 Dockerfile 文件，内容如下：
+
+    ```Dockerfile
+    FROM ubuntu:lastest
+    RUN apt-get update && apt-get install -y nginx
+    CMD ["nginx", "-g", "daemon off:"]
+    ```
+
+    使用以下命令在该 Dockerfile 所在的目录中构建一个新的 Docker 镜像，并将其命名为 "mynginx:latest"：
+
+    ```java
+    docker build -t mynginx:latest
+    ```
+
+    此命令将会读取当前目录中的 Dockerfile 文件，然后构建一个新的镜像。一旦构建完成，可以使用 docker run 命令启动这个镜像中的容器：
+
+    ```shell
+    docker run -p 80:80 mynginx:latest
+    ```
+
+    这将启动一个新的 nginx 容器，可以在本地主机的 80 端口访问它。
 
 
 ## 生命周期
