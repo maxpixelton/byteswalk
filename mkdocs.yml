@@ -310,9 +310,9 @@ nav:
         - "./CODING/JAVA/IO/java-bio-nio-aio.md"
       - 特性:
         - "./CODING/JAVA/FEATURE/new-feature.md"
-    # - Python: 
-    #   - "./CODING/PYTHON/basic.md"
-    #   - "./CODING/PYTHON/collection.md"
+    - Python: 
+      - "./CODING/PYTHON/basic.md"
+      # - "./CODING/PYTHON/collection.md"
     # - R:
     #   - "./CODING/R/basic.md"
     #   - "./CODING/R/collection.md"

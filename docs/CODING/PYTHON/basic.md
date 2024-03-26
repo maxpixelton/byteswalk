@@ -1,7 +1,5 @@
 # 资源
 
-## 通用
-
 <div class="grid cards" markdown>
 
 - :fontawesome-brands-youtube: <a href="https://www.youtube.com/@3blue1brown" target="_blank">__3Blue1Brown__</a> – 一个关于数学和编程的YouTube频道
