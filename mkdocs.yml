@@ -312,6 +312,10 @@ nav:
         - "./CODING/JAVA/FEATURE/new-feature.md"
     - Python: 
       - "./CODING/PYTHON/basic.md"
+      - "./CODING/PYTHON/an-informal-introduction-to-python.md"
+      - "./CODING/PYTHON/command-line-and-environment.md"
+      - "./CODING/PYTHON/interpreter.md"
+      - "./CODING/PYTHON/using-python-on-windows.md"
       # - "./CODING/PYTHON/collection.md"
     # - R:
     #   - "./CODING/R/basic.md"
