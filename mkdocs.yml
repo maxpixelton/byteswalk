@@ -324,8 +324,10 @@ nav:
       - "./CODING/WEB/web.md"
   - 软件工程:
     - "./SOFTWARE/about.md"
-  - 云: 
+  - 云计算: 
       - "./CLOUD/cloud.md"
+      - "./CLOUD/industry-practices-in-cloud-computing.md"
+      - "./CLOUD/learning-from-cloud-computing.md"
       - "./CLOUD/quick-install-docker-k8s.md"
       - "./CLOUD/get-started-docker.md"
       - "./CLOUD/docker-images.md"

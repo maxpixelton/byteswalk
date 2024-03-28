@@ -1,4 +1,4 @@
-# 快速安装 Docker + Kuerbernetes
+# 安装 Docker + K8s
 
 
 ## 安装 Dokcer

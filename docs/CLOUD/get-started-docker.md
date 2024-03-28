@@ -2,29 +2,37 @@
 
 ## Docker 是什么
 
-1. Docker 是一种开源的容器化平台，可以将应用程序及其所有依赖项打包到一个可移植的容器中，以便在任何地方运行。
+Docker 是一种开源的容器化平台，可以将应用程序及其所有依赖项打包到一个可移植的容器中，以便在任何地方运行，具有轻量、可移植，高灵活性和可扩展性的特点，可以帮助我们更快地 **构建**、**打包**、**部署** 和 **运行** 应用程序。<font color=red>（事实上，Docker 已成为容器标准）</font> 。
 
-2. Docker 容器是轻量级、可移植的，具有很高的灵活性和可扩展性，可以帮助开发者更快地构建、打包、部署和运行应用程序。<font color=red>事实上，Docker 已成为容器标准。</font>
+Docker 的技术是基于 Linux 容器技术的进一步发展，通过使用容器技术，Docker 可以为应用程序提供一个独立的运行环境，避免了由于不同的环境和依赖项引起的兼容性问题。
 
-3. Docker 技术是基于 Linux 容器技术的进一步发展，通过使用容器技术，Docker 可以为应用程序提供一个独立的运行环境，避免了由于不同的环境和依赖项引起的兼容性问题。
+Docker 的优势包括快速构建、部署和迁移应用程序，提高了应用程序的可靠性和稳定性，同时减少了资源的浪费。Docker 还可以与其他开发工具和平台集成，如 Kubernetes、Jenkins 和 AWS 等，为我们提供更加便捷的开发和部署体验。
 
 ## Docker 的好处
 
-解释为什么要使用 Docker，就等于解释为什么要使用容器。
+### 节省资源
 
-1. 节省资源。容器相对于虚拟机，容器只需要具备 app 运行的配置和 SDK 即可，不需要创建完整的操作系统，使用的资源大大减少。
+容器相对于虚拟机，容器只需具备应用程序运行的配置和 SDK 即可，不需要创建完整的操作系统，使用的资源大大减少。
 
-2. 资源隔离。比如一个虚拟机，跑一个 app，如 redis，没什么问题。但是我想跑不同版本的 redis，那么配置是不是可能冲突，环境是不是受到了污染？而如果换用容器技术，一个容器就是一个小操作系统，一个虚拟机上可以跑多个容器，那么轻易实现了跑不同版本的 redis，而且还资源隔离，删除容器即卸载了对应版本，是不是非常方便。
+### 资源隔离
 
-3. 安装时间大大缩短和灵活移植。一个容器运行了 redis，对应的系统配置和 SDK 依赖都是一样的，那么如果我能将这个容器导出成文件格式，然后再另一台虚拟机上导入运行起来，这样是不是就节省了安装时间呢？没错，容器虚拟技术结合 UnionFile System（联合文件系统）技术就是这么做的。这样带来的效率提升简直无可言喻。开发以容器虚拟技术开发应用后，将其打包导出，直接交给测试，测试在自己的环境上导入并运行，直接就可以完成测试，大大缩短了应用开发周期。而测试人员完成应用测试后，将其出，直接就可以上线工业环境，缩短了业务上线周期。甚至将文件开源，建立容器镜像库，全世界的人都可以使用，安装应用只需要下载对应镜像即可快速安装，大大减少了学习成本。
+比如一个虚拟机，跑一个 app，如 redis，没什么问题。但是我想跑不同版本的 redis，那么配置是不是可能冲突，环境是不是受到了污染 ？
 
-总之，Docker 的优势包括快速构建、部署和迁移应用程序，提高了应用程序的可靠性和稳定性，同时减少了资源的浪费。Docker 还可以与其他开发工具和平台集成，如 Kubernetes、Jenkins 和 AWS 等，为开发人员提供更加便捷的开发和部署体验。
+而如果换用容器技术，一个容器就是一个小操作系统，一个虚拟机上可以跑多个容器，那么轻易实现了跑不同版本的 redis，而且还资源隔离，删除容器即卸载了对应版本，是不是非常方便。
+
+### 安装时间大大缩短和灵活移植
+
+一个容器运行了 redis，对应的系统配置和 SDK 依赖都是一样的，那么如果我能将这个容器导出成文件格式，然后再另一台虚拟机上导入运行起来，这样是不是就节省了安装时间呢？没错，容器虚拟技术结合 UnionFile System（联合文件系统）技术就是这么做的。
+
+这样带来的效率提升简直无可言喻。开发以容器虚拟技术开发应用后，将其打包导出，直接交给测试，测试在自己的环境上导入并运行，直接就可以完成测试，大大缩短了应用开发周期。而测试人员完成应用测试后，将其出，直接就可以上线工业环境，缩短了业务上线周期。
+
+甚至将文件开源，建立容器镜像库，全世界的人都可以使用，安装应用只需要下载对应镜像即可快速安装，大大减少了学习成本。
 
 ## Docker 引擎
 
 ### 核心组件
 
-Docker 引擎是一种基于客户端-服务器（ C/S 架构）模型的应用程序。Docker 核心组件架构就长上图这个样子，由如下主要的组件构成：服务端 Docker 进程（Server Docker Daemon）、API 接口（REST API）、Docker 客户端命令行（Client Docker CLI）。Docker 服务端处理 Docker 客户端的请求，并执行相应的操作，并负责管理容器（Containers）、镜像（Images）、网络（Networks）、数据卷（Data Volumes）。
+Docker 引擎是一种基于**客户端-服务器（ C/S 架构）模型**的应用程序。Docker 核心组件架构如下图，主要的组件是：**服务端 Docker 进程（Server Docker Daemon）、API 接口（REST API）、Docker 客户端命令行（Client Docker CLI）。Docker 服务端处理 Docker 客户端的请求，并执行相应的操作，并负责管理容器（Containers）、镜像（Images）、网络（Networks）、数据卷（Data Volumes）**。
 
 
 核心组件的作用分别如下：
@@ -233,7 +241,9 @@ Docker 引擎是一种基于客户端-服务器（ C/S 架构）模型的应用�
 
 ### 容器类
 
-1. `docker run`: 用来从 Docker 镜像创建运行容器，即从指定的镜像启动一个新的容器实例，并在容器内运行一个命令。例如：`docker run image_name`，基本语法如下：
+1. `docker run`
+
+    用来从 Docker 镜像创建运行容器，即从指定的镜像启动一个新的容器实例，并在容器内运行一个命令。例如：`docker run image_name`，基本语法如下：
 
     ```Shell
     docker run [OPTIONS] IMAGE[:TAG|@DIGEST] [COMMAND] [ARG...]
@@ -253,7 +263,7 @@ Docker 引擎是一种基于客户端-服务器（ C/S 架构）模型的应用�
 
     - `-v`：将宿主机的目录挂载到容器中
 
-    例如，要从镜像 ubuntu:lastest 创建启动一个新的容器，并在容器中运行 bash 命令，可以使用以下命令：
+    例如，要从镜像 `ubuntu:lastest` 创建启动一个新的容器，并在容器中运行 `bash` 命令，可以使用以下命令：
 
     ```shell
     docker run -it --name mycontainer ubuntu:latest bash
@@ -275,7 +285,9 @@ Docker 引擎是一种基于客户端-服务器（ C/S 架构）模型的应用�
     ```
 
 
-2. `docker ps`: 用来列出正在运行的容器信息。基本语法如下：
+2. `docker ps`:
+
+    用来列出正在运行的容器信息。基本语法如下：
 
     ```shell
     docker ps [OPTIONS]
@@ -305,24 +317,171 @@ Docker 引擎是一种基于客户端-服务器（ C/S 架构）模型的应用�
     docker ps -f name=mycontainer
     ```
 
-3. `docker start、docker restart、docker stop、docker rm、docker kill`：这五个命令属于容器操作命令，分别代表启动、重启、停止、删除、杀死。使用时，命令后面跟上容器 ID，如 `docker stop container_id`。
+3. `docker start、docker restart、docker stop、docker rm、docker kill`
+
+    这五个命令属于容器操作命令，分别代表**启动**、**重启**、**停止**、**删除**、**杀死**。使用时，命令后面跟上容器 ID，如 `docker stop container_id`。
 
 
 4. `docker exec`
+
+    用来在运行中的 Docker 容器中执行命令，该命令可以用于在容器中运行一个新的进程，也可以用于执行一个已经存在的进程。
+
+    在某些情况下， docker exec 可以避免使用 docker attach 命令进入容器内部，这样可以在不中断容器额情况下执行命令。
+
+    docker exec 命令的基本语法如下：
+    ```shell
+    docker exec [OPTIONS] CONTAINER COMMAND [ARG..]
+    ```
+
+    其中，`CONTAINER` 是要执行命令的容器的**名称或ID**，`COMMAND` 是要在容器中执行的命令名称，`ARG...` 是命令的参数。
+
+    常用选项包括：
+
+    - `-d`：在后台执行命令
+
+    - `-i`：允许标准输入流
+
+    - `-t`：为命令分配一个伪终端
+
+    - `-u`：指定要执行命令的用户
+
+    - `-e`：设置环境变量
+
+    例如，要为名 mycontainer 的容器中执行命令 `ls -la`，可以使用以下命令：
+
+    ```shell
+    docker exec mycontainer ls -la
+    ```
+
+    更多命令示例：
+
+    ```shell
+    // 在容器内部以交互模式运行命令，并分配一个伪终端，可以使用 -it 选项
+    docker exec -it mycontainer bash
+
+    // 如果想在后台执行命令，可以使用 -d 选项
+    docker exec -d mycontainer tail -f /var/log/syslog
+
+    // 在容器内部设置环境变量
+    docker exec mycontainer sh -c 'echo "exprot MYVAR=myvalue" >> /etc/profile'
+
+    // 以 root 权限进入容器
+    docker exec -itu mycontainer bash
+    ```
 
 ### 镜像类
 
 1. `docker images`
 
+    用来列出当前所有镜像
+
 2. `docker rmi`
+
+    用来删除一个镜像，例如：`dockcer rmi image_name` 和 `docker rmi image_id`。
 
 3. `docker pull`
 
+    用来拉取一个镜像，例如：`docker pull [url]/image_name:tag`。
+
+    ```shell
+    docker pull registry.aliyuncs.com/google_containers/metrics-server:v0.5.2
+    ```
+
+    在上面示例中：
+
+    - registry.aliyuncs.com/google_containers 是镜像仓库 url
+
+    - metrics-server 是镜像名称
+
+    - v0.5.2 是镜像 tag，即版本号
+
+    如果没有 url，就默认从 Docker Hub（一个开源的镜像仓库）拉取镜像
+
 4. `docker push`
+
+    用来将一个镜像推送到镜像仓库，例如：`docker push [url]/image_name:tag`。
+
+    ```shell
+    docker push registry.aliyuncs.com/google_containers/metrics-server:v0.5.2
+    ```
 
 5. `docker tag`
 
+    用来给一个本地的 Docker 镜像打标签，也可以将已有的标签修改为新的标签。
+
+    标签由两部分组成：
+    
+    - repository：Docker 镜像的名称
+
+    - tag：镜像的版本号或标记
+
+    命令的基本语法是：
+
+    ```shell
+    docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]
+    ```
+
+    其中，`SOURCE_IMAGE` 是源镜像的名称或ID, `TARGET_IMAGE` 是目标镜像的名称或 ID，可以使用 `repository:tag` 的格式指定。
+
+    例如：要将一个名为 myimage 的 Docker 镜像打上 v1.0 的标签，并将其重命名为 `myrepo/myimage:v1.0`，命令如下：
+
+    ```shell
+    docker tag myimage myrepo/myimage:v1.0
+    ```
+
+    这将在本地的 Docker 镜像中为 myimage 镜像打上 v1.0 的标签，并将其重命名为 `myrepo/myimage:v1.0`。
+
+    如果要修改现有镜像的标签，使用以下命令：
+
+    ```shell
+    docker tag myrepo/myimage:oldtag myrepo/myimage:newtag
+    ```
+
+    这将修改 `myrepo/myimage` 镜像的标签，将其从 oldtag 修改为 newtag。
+
+    需要注意的是，docker tag 命令只能修改标签，不能修改镜像的 ID。如果要修改镜像的 ID，需要使用 docker commit 命令创建一个新的镜像。
+
 6. `docker commit`
+
+    用来将一个容器的文件系统保存为一个新的镜像。
+
+    通过使用此命令，可以将容器中进行的更改保存为新的镜像，从而不需要重新创建和启动容器。
+
+    基本语法：
+
+    ```shell
+    docker commit [OPTIONS] CONTAINER [REPOSITORY[:TAG]]
+    ```
+
+    其中，`[OPTIONS]` 是可选的命令选项，`CONTAINER` 是要保存为新镜像的`容器的 ID 或名称`，`[REPOSITORY[:TAG]]` 是新镜像的名称和标记。
+
+    常用选项包括:
+
+    - `-a`, `--author`: 设置新镜像的作者信息
+
+    - `-c`, `--change`: 用来在新镜像上执行的 Dockerfile 指令
+
+    - `-m`, `--message`: 为新镜像设置一个描述信息
+
+    - `-p`, `--pause`: 提交时暂停容器的运行
+
+    例如, 将一个名为 mycontainer 的容器保存为新的镜像, 并将其命名为 `myrepo/myimage:v1.0`, 命令如下:
+    
+    ```shell
+    docker commit mycontainer myrepo/myimage:v1.0
+    ```
+
+    这将在本地的 Docker 镜像中创建一个名为 `myrepo/myimage` 的新镜像, 其标记为 v1.0, 并且其文件系统与 mycontainer 容器完全相同.
+
+    如果要为新镜像添加作者信息和描述信息,可以使用 `-a` 和 `-m` 选项:
+
+    ```shell
+    docker commit -a "jiangdouya" -m "This is my new image" mycontainer myrepo/myimage:v1.0
+    ```
+
+    这将为新镜像添加做做信息为 "jiangdouya", 描述信息为 "This is my new image".
+
+    需要注意的是, 使用 docker commit 命令创建的镜像通常比使用 Dockerfile 创建的镜像难以管理和维护. 因此, 建议尽可能使用 Dockerfile 来创建和管理 Docker 镜像.
 
 ### 查看类
 
@@ -356,7 +515,7 @@ Docker 引擎是一种基于客户端-服务器（ C/S 架构）模型的应用�
 
     !!! tip
 
-    需要注意的是, docker inpest 命令返回的信息非常详细, 但也非常复杂, 如果只需要查看特定属性的值, 建议使用 grep 等命令过来输出.
+        需要注意的是, `docker inpest` 命令返回的信息非常详细, 但也非常复杂, 如果只需要查看特定属性的值, 建议使用 `grep` 等命令过来输出.
 
 
 2. `docker logs`
@@ -405,7 +564,7 @@ Docker 引擎是一种基于客户端-服务器（ C/S 架构）模型的应用�
     docker load -i myimage.tar
     ```
 
-    在使用 `dokcer tag` 将加载的镜像改为指定的 tag。
+    再使用 `dokcer tag` 将加载的镜像改为指定的 tag。
    
 
 2. `docker build`
