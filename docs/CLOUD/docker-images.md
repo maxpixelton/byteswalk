@@ -80,8 +80,9 @@ Status: Downloaded newer image for quay.io/coreos/flannel:v0.14.0
 
     4. 现在，/C 目录下的内容将包括 A 和 B 两个文件系统的内容。因此，用户可以通过 `/C/foo` 访问文件 `/A/foo`，通过 `/C/bar` 访问目录 `/A/bar`，通过 `/C/B/bar` 访问文件 `/B/bar`，通过 `/C/B/foo` 访问目录 `/B/foo`。
 
-
 ## 回说 Docker 镜像分层
+
+
 
 ### 基础概念
 
