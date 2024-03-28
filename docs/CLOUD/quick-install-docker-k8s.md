@@ -15,7 +15,7 @@
 
     !!! tips
 
-        ![阿里云镜像加速器](https://shichuan-hao.github.io/images/static/cloud/quick-install-docker-k8s-imagejiasu.png){width=290 higth=400 align=right loading=lazy}
+        ![阿里云镜像加速器](https://shichuan-hao.github.io/images/static/cloud/install-docker-k8s/quick-install-docker-k8s-imagejiasu.png){width=290 higth=400 align=right loading=lazy}
 
         1. 阿里云镜像加速器是免费的。
 
@@ -113,13 +113,13 @@ Etcd 被设计用于存储 Kubernetes 集群中的所有关键数据，如集群
         sudo systemctl restart docker
         ```
 
-        ![添加 exec-opts](https://shichuan-hao.github.io/images/static/cloud/add-exec-opts-docker.png)
+        ![添加 exec-opts](https://shichuan-hao.github.io/images/cloud/install-docker-k8s/add-exec-opts-docker.png)
 
 6. 设置 kubelet 开机启动：`systemctl daemon-reload && systemctl enable kubelet && systemctl start kubelet`。
 
 7. 生成 master 节点配置 kubeadm 的初始化文件：`kubeadm config print init-defaults > init.default.yaml`，需要修改的配置如下：
 
-    ![master 节点配置 kubeadm 的初始化文件](https://shichuan-hao.github.io/images/static/cloud/inital-config-file-with-master-node.png)
+    ![master 节点配置 kubeadm 的初始化文件](https://shichuan-hao.github.io/images/cloud/install-docker-k8s/inital-config-file-with-master-node.png)
 
     本实验修改如下：
     ```yaml
@@ -161,7 +161,7 @@ Etcd 被设计用于存储 Kubernetes 集群中的所有关键数据，如集群
 
         <font color=red>此步骤非常重要，因为总是会因为网络问题导致镜像下载不下来，进而导致安装 kubeadm 失败</font>
 
-        ![下载好的镜像](https://shichuan-hao.github.io/images/static/cloud/kudeadm-images-pull.png)
+        ![下载好的镜像](https://shichuan-hao.github.io/images/cloud/install-docker-k8s/kudeadm-images-pull.png)
 
     3. 修改镜像标签 tag。下载好的镜像地址名称和要求的不一样，因此需要修改镜像 tag 保持一致：`dokcker tag <源镜像> <目标镜像>`
 
@@ -183,7 +183,7 @@ Etcd 被设计用于存储 Kubernetes 集群中的所有关键数据，如集群
 
     <font color=red>10.244.0.0/16 为 k8s 内部的 pod 节点之间网络可以使用的 IP 段，尽量不和 service-cidr 一样。</font>
 
-    ![安装成功提示](https://shichuan-hao.github.io/images/static/cloud/kubernetes-control-plane-initialized-successfully.png)
+    ![安装成功提示](https://shichuan-hao.github.io/images/cloud/install-docker-k8s/kubernetes-control-plane-initialized-successfully.png)
 
     安装成功，要将下面的内容记下来（🔥🔥🔥），用来纳管其他节点进入集群时需要：
 
