@@ -21,5 +21,5 @@ git push -f git@github.com:Shichuan-Hao/byteswalk.git dev
 # git push -u origin main
 echo '--------push to GitHub successfully--------'
 
-mkdocs gh-deploy
+python -m mkdocs gh-deploy
 echo '--------deployed to Github Pages sucessfully--------'
