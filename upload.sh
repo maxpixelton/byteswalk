@@ -12,7 +12,10 @@ git status
 git commit -m 'auto update byteswalk'
 echo '--------commit successfully--------'
 
-git push
+
+git push -f git@github.com:Shichuan-Hao/byteswalk.git/ dev
+
+# git push
 # git push -f git@github.com:Shichuan-Hao/byteswalk.git/ main
 # git push -u git@github.com:Shichuan-Hao/byteswalk.git/ main
 # git remote add origin git@github.com:Shichuan-Hao/byteswalk.git/
