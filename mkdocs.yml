@@ -271,7 +271,7 @@ nav:
     - 关于: "./HOME/about.md"
     - 赞助: "./HOME/sponsorship.md"
   - 数学:
-    - "./MATH/resource.md"
+    # - "./MATH/resource.md"
     - "./MATH/calculus-study.md"
   - 计算机科学: 
     - "./CS/preamble.md" 
