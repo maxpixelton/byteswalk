@@ -13,8 +13,7 @@ git commit -m 'auto update byteswalk'
 echo '--------commit successfully--------'
 
 
-git push -f git@github.com:Shichuan-Hao/byteswalk.git/ dev
-
+git push -f git@github.com:Shichuan-Hao/byteswalk.git dev
 # git push
 # git push -f git@github.com:Shichuan-Hao/byteswalk.git/ main
 # git push -u git@github.com:Shichuan-Hao/byteswalk.git/ main
