@@ -6,4 +6,4 @@ WebRTC（Web Real-Time Communications）是一项实时通讯技术，它允许�
 
 WebRTC 包含了若干相互关联的 API 和协议以达到这个目标。你在这里看到的文档将会帮助你理解 WebRTC 的基本概念，还会教你如何去建立和使用可以传输媒体数据和其他任意数据的连接。当然你还会学到更多其他的东西。
 
-- [ ] [WebRTC_API](https://developer.mozilla.org/zh-CN/docs/Web/API/WebRTC_API)
+- [ ] [WebRTC_API](https://developer.mozilla.org/zh-CN/docs/Web/API/WebRTC_API)。
