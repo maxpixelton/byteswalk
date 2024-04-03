@@ -310,7 +310,8 @@ nav:
         - "./CODING/JAVA/IO/java-io-stream.md"
         - "./CODING/JAVA/IO/java-bio-nio-aio.md"
       - 特性:
-        - "./CODING/JAVA/FEATURE/new-feature.md"
+        # - "./CODING/JAVA/FEATURE/new-feature.md"
+        - "./CODING/JAVA/FEATURE/java8.md"
     - Python: 
       - "./CODING/PYTHON/basic.md"
       - "./CODING/PYTHON/an-informal-introduction-to-python.md"
