@@ -112,7 +112,7 @@ Lambda 表达式是推动 Java 8 发布的最重要的特性，是继泛型（Ge
 (parameters) -> { statements;}
 ```
 
-下面实例可以来感受 Lambda 带来的便利
+下面实例可以来感受 Lambda 带来的便利。
 
 ### 替代匿名内部类
 

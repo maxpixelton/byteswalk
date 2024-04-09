@@ -14,9 +14,7 @@ spam = 1  # and this is the second comment
 text = "# This is not a comment because it's inside quotes."
 ```
 
-## 将 Python 用作计算器
-
-### 数字
+## 数字
 
 解释器就像一个简单的计算器：我们可以输入一个表达式，它将给出结果值。
 
