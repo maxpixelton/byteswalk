@@ -314,6 +314,7 @@ nav:
         - "./CODING/JAVA/FEATURE/java8.md"
     - Python: 
         - "./CODING/PYTHON/datatype.md"
+        - "./CODING/PYTHON/python-list.md"
       # - "./CODING/PYTHON/basic.md"
       # - "./CODING/PYTHON/an-informal-introduction-to-python.md"
       # - "./CODING/PYTHON/command-line-and-environment.md"
