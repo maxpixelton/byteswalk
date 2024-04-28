@@ -316,7 +316,10 @@ nav:
     - Python: 
         - "./CODING/PYTHON/datatype.md"
         - "./CODING/PYTHON/python-list.md"
+        - "./CODING/PYTHON/python-if.md"
         - "./CODING/PYTHON/python-operator.md"
+        - "./CODING/PYTHON/python-code-protocol.md"
+        - "./CODING/PYTHON/python-dictionary.md"
       # - "./CODING/PYTHON/basic.md"
       # - "./CODING/PYTHON/an-informal-introduction-to-python.md"
       # - "./CODING/PYTHON/command-line-and-environment.md"

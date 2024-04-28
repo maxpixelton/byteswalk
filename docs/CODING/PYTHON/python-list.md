@@ -590,9 +590,9 @@ for value in range(1, 5):
 
 #### 使用 `range()` 创建数值列表
 
-我们如果想要创建数值列表，可以使用 list() 函数将 range() 函数的结果直接转换成为列表。如果将 range() 作为 list() 的参数，输出将是一个数值列表。
+我们如果想要创建数值列表，可以使用 `list()` 函数将 `range()` 函数的结果直接转换成为列表。如果将 `range()` 作为 `list()` 的参数，输出将是一个数值列表。
 
-在上面示例 `fist_number.py` 中，只是将一些列数打印出来，要将这组数转换为列表，可以使用函数 list()
+在上面示例 `fist_number.py` 中，只是将一些列数打印出来，要将这组数转换为列表，可以使用函数 `list()`
 ```python
 numbers = list(range(1, 6))
 print(numbers)
@@ -607,6 +607,300 @@ print(numbers)
 even_numbers = list(range(2, 11, 2))
 print(even_numbers)
 ```
-在这个示例中，range() 函数从 2 开始数，然后不断地加 2，直到达到或超过终值（11）。因此输出如下：
+在这个示例中，`range()` 函数从 2 开始数，然后不断地加 2，直到达到或超过终值（11）。因此输出如下：
 ```
+[2, 4, 6, 8, 10]
 ```
+
+使用 `range()` 函数几乎能够创建任意数值集合。例如，如何创建一个列表，其中包含前 10 个整数（1～10）的平方呢？在 Python 中，用两个星号 **（`**`）** 表示乘方运算。下面的代码演示了如何将前 10 个整数的平方加入一个列表：
+```python
+1 squares = [] # 首先，创建一个名为 squares 的空列表
+2 for value in range(1, 11): # 接下来，使用 range() 函数让 Python 遍历 1～10 的值
+3    square = value ** 2 # 在循环中，计算当前值的平方，并将结果赋给变量 square
+4    squares.append(square) # 然后，将新计算得到的平方值追加到列表 squares 的末尾（）。
+5
+6 print(squares) # 循环结束后，打印列表 squares：[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+```
+
+为了让代码更简洁，可不使用临时变量 square，而是直接将计算得到的每个值追加到列表末尾：
+
+```python
+1 squares = []
+2 for value in range(1, 11):
+3    squares.append(value ** 2) # 这行代码与上面代码示例中的第 3 行和第 4 行代码等效。在循环中，计算每个值的平方，并立即将结果追加到列表 squares 的末尾。
+4
+5 print(squares)
+```
+
+!!! notes
+
+    由上面两个示例可知，在创建更复杂的列表时，可使用这两个示例方法中的任意一种。不过，有时候，使用临时变量会让代码更易读；而在其他时候，这样做只会让代码无谓地变长。我们首先应该考虑的是，编写清晰易懂且能完成所需功能的代码，等到审核代码时，再考虑采用更高效的方法。
+
+
+#### 对数值列表执行简单的统计计算
+
+有几个 Python 函数可帮助你处理数值列表。例如，我们可以轻松地找出数值列表中的最大值、最小值和总和：
+
+```python
+digits = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+print(f"The digist is a simple value list: {digits} ")
+print(f"The max value of digits：{max(digits)}")  # 输出：0
+print(f"The min value of digits：{min(digits)}")  # 输出：9
+print(f"The sum value of digits：{sum(digits)}")  # 输出：45
+```
+
+当然，这里面的统计也适用于包含数百万个数的列表。
+
+#### 列表推导式
+
+前面介绍的生成列表 `squares` 的方式包含三四行代码，而列表推导式让你只需编写一行代码就能生成这样的列表。
+
+**列表推导式（list comprehension）** 将 `for` 循环和创建新元素的代码合并成一行，并自动追加新元素，如下：
+
+```python title="列表推导式"
+squares = [value**2 for value in range(1, 11)]
+print(squares) # 输出结果：[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+```
+
+要使用这种语法：
+
+- 首先，指定一个描述性的列表名，如 `squares`
+
+- 然后，指定一个左方括号，并定义一个表达式，用于生成要存储到列表中的值。在这个示例中，
+表达式为 `value**2`，它计算平方值
+
+- 接下来，编写一个 `for` 循环，用于给表达式提供值，再加上右方括号。在这个示例中，
+`for` 循环为 `for value in range(1,11)`，它将值 `1～10` 提供给表达式 `value**2`。
+
+### 使用列表的一部分：切片
+
+上面不是访问单个列表元素，就是处理列表的所有元素。当然，除此之外，我们还可以处理列表的
+部分元素，在 Python 中称为 **切片（slice）**
+
+#### 切片
+
+创建切片的方式很简单，即指定要使用的第一个元素和最后一个元素的索引，与 `range()` 函数
+一样，Python 在<font color=red>到达指定的第二个索引之前的元素时停止</font>。
+
+下面的示例处理的是一个运动队成员列表：
+
+```python
+players = ['charles', 'martina', 'michael', 'florence', 'eli']
+# 打印 player 列表的一个切片，当然输出的也是一个切面，其中包含前 3 命队员
+print(players[0:3]) # ['charles', 'martina', 'michael']
+```
+
+我们可以生成列表的任意子集。例如，如果要提取列表第 2、第 3 和第 4 个元素，可将起始索引
+指定为 1，并将终止索引指定为 4，如下：
+```python
+players = ['charles', 'martina', 'michael', 'florence', 'eli']
+print(player[1:4]) # 输出结果：['martina', 'michael', 'florence']
+```
+
+如果没有指定第一个索引，Python 将自动从列表开头开始：
+```python
+print(players[:4]) # 输出结果：['charles', 'martina', 'michael', 'florence']
+```
+
+如果想要让终止于列表末尾，也可以使用类似的语法，如下：
+```python
+print(players[2:]) # 输出结果：['michael', 'florence', 'cli']
+```
+
+如果自定负数索引，则返回与列表末尾有相应距离的元素：
+```python
+ print(players[-3:]) # 输出结果：['florence', 'cli']
+```
+
+!!! notes
+
+    可以在表示切片的方括号内指定第三个值（即<font color='red'>步长</font>），这个值
+    是告诉 Python 在指定范围内每隔多少元素提取一个。
+
+
+#### 遍历切片
+
+如果要遍历列表的部分元素，可在 for 循环中使用切片，如下：
+
+```python
+players = ['charles', 'martina', 'michael', 'florence', 'eli']
+
+print("\nHere are the first three player on my team:")
+for player in players[3:]:
+    print(f" - {player}")
+```
+
+切片在很多情况下是很有用的，例如：
+
+- 在编写游戏时，可以在玩家退出游戏时将其最终得分加入一个列表，然后将该列表按降序排列，
+再创建一个只包含前三个得分的切片，以获取该玩家的三个最高得分；
+
+- 在处理数据时，可以使用切片来进行批量处理；在编写 Web 应用程序时，可以使用切片来分页
+显示信息，并在每页上显示数量合适的信息。
+
+#### 复制列表
+
+我们经常需要根据既有列表创建全新的列表。
+
+列表复制的工作原理：
+
+- 要复制列表，可以创建一个包含整个列表的切片，方法是同时省略起始索引和终止索引 `[:]`，这
+让 Python 创建一个起始第一元素、终止与最后一个元素的切片，即复制整个列表。
+
+假设有一个列表包含你最喜欢的四种食品，而你想再创建一个列表，并在其中包含你的一个朋友喜
+欢的所有食品。巧的是，你喜欢的食品，这个朋友也都喜欢，因此可通过复制来创建这个列表：
+```python
+my_foods = ['凉皮', '肉夹馍', '可乐'] # 首先，创建一个名为 my_foods 的食品列表
+# 然后，创建一个名为 friend_foods 的新列表。在不指定任何索引的情况下，从列表 my_foods 
+# 中提取一个切片，从而创建这个列表的副本，再将该副本赋给变量 friend_foods
+friend_foods = my_foods[:] 
+
+print("\nMy favorite foods are: ")
+print(my_foods) # ['凉皮', '肉夹馍', '可乐']
+
+
+print("\nMy friend's favorite foods are: ")
+print(friend_foods) # ['凉皮', '肉夹馍', '可乐']
+```
+
+可以在每个列表中都添加一种食品，以确认每个列表都记录了相应的人喜欢的食品：
+```python
+my_foods = ['凉皮', '肉夹馍', '可乐']
+friend_foods = my_foods[:]
+
+my_foods.append('狮子头')
+friend_foods.append('豆腐干')
+
+print("\nMy favorite foods are: ")
+print(my_foods) # ['凉皮', '肉夹馍', '可乐', '狮子头']
+
+
+print("\nMy friend's favorite foods are: ")
+print(friend_foods) # ['凉皮', '肉夹馍', '可乐', '豆腐干']
+```
+
+以上就是复制列表的示例。如果使用 `friend_foods = my_foods` 是行不通的，因为这是将 
+my_foods 赋给 friend_foods，而不是将 my_foods 的副本赋给 friend_foods。这种语法
+实际上是让 Python 将新变量 friend_foods 关联到已与 my_foods 相关联的列表，因此这
+两个变量指向同一个列表，如下：
+```python
+my_foods = ['凉皮', '肉夹馍', '可乐']
+# # 这是行不通，是将my_foods赋给friend_foods，不是将my_foods的副本赋给friend_foods
+friend_foods = my_foods 
+
+my_foods.append('狮子头')
+friend_foods.append('豆腐干') 
+
+print("\nMy favorite foods are: ")
+print(my_foods) # ['凉皮', '肉夹馍', '可乐', '狮子头', '豆腐干']
+
+
+print("\nMy friend's favorite foods are: ")
+print(friend_foods) # # ['凉皮', '肉夹馍', '可乐', '狮子头', '豆腐干']
+```
+
+### 元组
+
+列表非常适合用于存储在程序运行期间可能变化的数据集。
+
+列表是可以修改的，这对于处理网站的用户列表或游戏中的角色列表至关重要。
+
+然而，我们有时候需要创建一系列不可修改的元素，**元组**可满足这种需求。
+
+Python 将不能修改的值称为**不可变的**，而不可变的列表称为**元组（tuple）**。
+
+#### 定义元组
+
+元组看起来很像列表，但使用圆括号而不是方括号来标识。
+
+定义元组后，就可使用索引来访问其元素，就像访问列表元素一样。
+
+如果有一个大小不应改变的矩形，可将其长度和宽度存储在一个元组中，从而确保它们是不能修改的：
+
+```python
+dimensions = (200, 50) # 首先定义元组 dimensions，为此使用了圆括号而不是方括号
+# 接下来，分别打印该元组的各个元素，使用的语法与访问列表元素时使用的语法相同：
+print(dimensions[0])
+print(dimensions[1])
+```
+下面来尝试修改元组 dimensions 的一个元素，看看结果如何：
+
+```python
+dimensions = (200, 50)
+dimensions[0] = 250
+```
+
+这里的代码试图修改第一个元素的值，导致 Python 返回类型错误的消息。由于试图修改元组的
+操作是被禁止的，因此 Python 指出不能给元组的元素赋值：
+
+```
+Traceback (most recent call last):
+  File "dimensions.py", line 2, in <module>
+    dimensions[0] = 250
+TypeError: 'tuple' object does not support item assignment
+```
+在代码试图修改矩形的尺寸时，Python 会报错。这很好，正是我们所希望的。
+
+!!! notes 
+
+    严格地说，元组是由逗号标识的，圆括号只是让元组看起来更整洁、更清晰。如果我们要定义
+    只包含一个元素的元组，必须在这个元素后面加上逗号：
+
+    ```python
+    my_t = (3,)
+    ```
+    
+    创建只包含一个元素的元组通常没有意义，但自动生成的元组有可能只有一个元素。
+
+#### 遍历元组中的所有值
+
+像列表一样，也可以使用 for 循环来遍历元组中的所有值：
+
+```python
+dimensions = (200, 50)
+for dimension in dimensions:
+    print(dimension)
+```
+
+就像遍历列表时一样，Python 返回元组中的所有元素：
+
+```
+200
+50
+```
+
+
+#### 修改元组变量
+
+虽然不能修改元组的元素，但可以给表示元组的变量赋值。
+
+例如，要修改前述矩形的尺寸，可重新定义整个元组：
+
+```python
+dimensions = (200, 50)
+print("Original dimensions:")
+for dimension in dimensions:
+    print(dimension)
+
+dimensions = (400, 100)
+print("\nModified dimensions:")
+for dimension in dimensions:
+    print(dimension)
+```
+
+开头 4 行代码定义一个元组，并将其存储的尺寸打印出来。接下来，将一个新元组关联
+到变量 dimensions，并打印新的尺寸。这次，Python 没有引发任何错误，因为给元组
+变量重新赋值是合法的：
+
+```python
+Original dimensions:
+200
+50
+
+Modified dimensions:
+400
+100
+```
+
+相比于列表，元组是更简单的数据结构。如果需要存储一组在程序的整个生命周期内都不变
+的值，就可以使用元组。
