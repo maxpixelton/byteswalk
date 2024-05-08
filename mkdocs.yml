@@ -354,3 +354,5 @@ nav:
       - "./PROJECT/文字和排版.md"
       - "./PROJECT/gemoij_db.md"
   - 博客: "https://shichuan-hao.github.io/boke/"
+  - AI: 
+      - "./AI/DEEP-LEARNNING/perceptron.md"

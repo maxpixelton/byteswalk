@@ -1,4 +1,4 @@
-# Python 代码规约
+# 代码规约
 
 
 > 参考 PEP 8 — Style Guide for Python Code”，即 Python 增强提案（Python Enhancement Proposal，PEP）。
